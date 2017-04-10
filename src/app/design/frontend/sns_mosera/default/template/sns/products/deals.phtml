@@ -1,0 +1,134 @@
+<?php
+/*------------------------------------------------------------------------
+ # SNS Products - Version 1.0
+ * Copyright (C) 2013 The SNS Theme. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: SNS Theme
+ * Websites: http://www.snstheme.com
+-------------------------------------------------------------------------*/
+$themeConfig =   Mage::helper('mosera/data')->get();
+$themeCfg =   Mage::helper('mosera/data');
+$_productCollection = $this->getLoadedProductCollection();
+// var_dump($_productCollection);
+// die();
+$_helper = $this->helper('catalog/output');
+$imgWidth = $this->product_image_width;
+$imgHeight = $this->product_image_height;
+if ($imgWidth <= 0 || $imgHeight <= 0){
+	$this->product_image_disp = false;
+}
+$uniqued = rand().time();
+
+$imgSize = Mage::helper('mosera/data')->getImgSize('XXL');
+$imgWidth = [0];
+$imgHeight = [1];
+?>
+<?php if(!$_productCollection->count()): ?>
+	<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<?php else: ?>
+<div id="sns_lider<?php echo $uniqued; ?>" class="block sns-slider sns-deals">
+	<div class="slider-inner">
+		<!-- <div class="module-title">
+	    	<div class="block-title">
+	    		<?php if($this->title!="") : ?>
+	    			<strong><?php echo $this->__($this->title);?></strong>
+				<?php endif; ?>
+	    	</div>
+	    </div> -->
+	    
+	    <div class="products-grid">
+	    <?php foreach($_productCollection as $_product) : ?>
+	    	<?php
+		        $saleLabel = false;
+		        $newLabel = false;
+				$now = date("Y-m-d");
+		        $newsFrom= substr($_product->getData('news_from_date'),0,10);
+		        $newsTo=  substr($_product->getData('news_to_date'),0,10);
+		        $price = $_product->getPrice();
+		        $finalPrice = $_product->getFinalPrice();
+		        if(!$newsTo && $newsFrom && $now>=$newsFrom) $newLabel = true;
+		        if($newsTo && !$newsFrom && $now<=$newsTo) $newLabel = true;
+				if ($now>=$newsFrom && $now<=$newsTo && $themeCfg->getField('general_useTagNew')){
+					$newLabel = true;
+				}
+				if(isset($price) && isset($finalPrice) && $finalPrice < $price && $themeCfg->getField('general_useTagSale')) $saleLabel = true;
+
+		        $endTime = Mage::getModel('core/date')->date("Y, m, d, H, i, s", $_product->getSpecialToDate());
+		        $endTime1 = Mage::getModel('core/date')->date("d / m / Y", $_product->getSpecialToDate());
+		        $fromTime1 = Mage::getModel('core/date')->date("d / m / Y", $_product->getSpecialFromDate());
+		        // echo($endTime1.'abv');
+                $nowTime = Mage::getModel('core/date')->date("Y, m, d, H, i, s", Mage::getModel('core/date')->timestamp(time()));
+                $nowTime1 = Mage::getModel('core/date')->date("d / m / Y", Mage::getModel('core/date')->timestamp(time()));
+                // echo($_product->getSpecialToDate().'bcbc'); 
+			?>
+			<?php  if($nowTime <= $endTime && $_product->getSpecialToDate()):?>
+	        <div class="item">
+                <div class="item-inner">
+                    <div class="prd">
+                    	<div class="left">
+                    		<div class="img-main">
+                                        <img
+                                            data-zoom-image="<?php echo $this->helper('catalog/image')->init($_product, 'small_image'); ?>"
+                                            src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize($imgSize[0], $imgSize[1]); ?>"
+                                            alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+                            </div>
+                            <div class="left-content">
+                        		<div class="title">
+                                    <span><?php echo $this->__('Save up to');?></span><?php if ($saleLabel) echo "<span class=''> -".floor(100-($finalPrice/$price)*100)."%</span>"; ?>
+                                </div>
+                                <div class="date">
+                                	<span><?php echo $this->__('applied on');?></span> <?php echo($fromTime1 .' - '. $endTime1); ?>
+                                </div>
+                            </div>
+                    	</div>
+                    	<div class="right">
+                            <div class="item-title">
+                                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?>"><?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?></a>
+                            </div>
+                            <div class="desc">
+                                    <?php echo Mage::helper('core/string')->truncate($_product->getShortDescription(), 90); ?>
+                             </div>
+                             <div class="module-countdown">
+                             <?php if ($saleLabel && $nowTime < $endTime && $themeCfg->getField('general_dealsCountdown')): ?>
+                                    <div class="countdown" data-endtime="<?php echo $endTime; ?>"></div>
+                                <?php endif; ?>
+                            </div>
+                            <div class="click_count">
+                                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_helper->productAttribute($_product, $_product->getName() , 'name'); ?>">
+                                        <?php echo $this->__('Shop now') ?>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	        <?php endif; ?>
+	    <?php endforeach; ?>
+	    </div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+    jQuery(document).ready(function($) {
+        $('#sns_lider<?php echo $uniqued; ?> div.products-grid').owlCarousel({
+			items:1,
+		    margin:0,
+		    loop:true,
+		    responsiveClass:true,
+		    nav: true,
+		    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+		    dots: false,
+		    stagePadding:0,
+		    smartSpeed:450,
+		    animateOut: 'bounceOut',
+		    animateIn: 'flipInX',
+		    autoplay: true,
+		    autoplayTimeout: 5000,
+		    autoplayHoverPause: true
+        });
+    });
+//]]>
+</script>
+<?php endif; ?>

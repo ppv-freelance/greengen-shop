@@ -1,0 +1,63 @@
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function($){
+	;(function(element){
+			var $element = $(element);
+			var itemNav = $('.item-nav',$element);
+			var itemContent = $('.pdt-content',$element);
+			var btn_loadmore = $('.btn-loadmore',$element);
+			var ajax_url="<?php echo Mage::getBaseUrl().'producttabs/index/'.$ajaxAction ?>";
+			var catids = '<?php echo $options->product_category; ?>';
+			var label_allready =  '<?php echo $this->__('All ready'); ?>';
+
+			var options = '<?php echo $option_json; ?>';
+
+			itemNav.click(function(){
+				var $this = $(this);
+				if($this.hasClass('tab-nav-actived active')) return false;
+				itemNav.removeClass('tab-nav-actived active');
+				$this.addClass('tab-nav-actived active');
+				var itemActive = '.'+$this.attr('data-href');
+				itemContent.removeClass('tab-content-actived').css({'overflow':'hidden', 'height':'0'});
+				$(itemActive, $element).addClass('tab-content-actived').css({'overflow':'', 'height':''});
+
+				contentLoading = $('.content-loading',$(itemActive, $element));
+				isLoaded = $(itemActive, $element).hasClass('is-loaded');
+				if(!isLoaded && !$(itemActive, $element).hasClass('is-loading')){
+					$(itemActive, $element).addClass('is-loading');
+					contentLoading.show();
+					pdt_type = $this.attr('data-type');
+					catid = $this.attr('data-catid');
+					orderby = $this.attr('data-orderby');
+					$.ajax({
+						type: 'POST',
+						url: ajax_url,
+						data:{
+							numberstart: 0,
+							catid: catid,
+							orderby: orderby,
+							catids: catids,
+							options: options,
+							pdt_type: pdt_type
+						},
+						success: function(result){
+							$this.addClass('tab-nav-actived active');
+							if(result.listProducts !=''){
+								$('.pdt-list',$(itemActive, $element)).html(result.listProducts);
+								$(itemActive, $element).addClass('is-loaded').removeClass('is-loading');
+							}
+						},
+						dataType:'json'
+					});
+				}
+			});
+			$(window).load(function(){
+				itemNav.each(function(){
+					if($(this).hasClass('first_load')) $(this).trigger('click');
+				});
+			});
+	})('#sns_producttabs_slider<?php echo $uq; ?>');
+});
+//]]>
+</script>

@@ -1,0 +1,42 @@
+<?php
+	$themeCfg = Mage::helper('mosera/data');
+?>
+<div class="sns-social">
+	<?php
+	if($themeCfg->getField('social_status')) :
+		
+		$items = $themeCfg->getField('social_items');
+		$array_items = unserialize($items);
+		$id = 1;
+		$collect_items = array();
+		foreach($array_items as $key=>$item){
+			$item['id'] = $id;
+			$item['link'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($item['link']);
+			$item['class'] = ($item['icon']) ? 'fa ' . $item['icon'] : '';
+			$collect_items[] = $item;
+			$id++;
+		}
+	?>
+		<!-- <h6><?php echo $this->__('Join in'); ?></h6> -->
+		<!-- <div class="title">
+			<h6>
+				<?php echo $this->__('FIND US'); ?>
+			</h6>
+		</div> -->
+		<!-- <p><?php echo $this->__('Lorem Ipsum is simply dummy text of the.'); ?></p> -->
+		<ul>
+		<?php foreach($collect_items as $item) : ?>
+			<li>
+				<a 
+					href="<?php echo $item['link']; ?>" 
+					target="<?php echo $item['target']; ?>"
+					title="<?php echo $item['title']; ?>" 
+					>
+						<?php //echo $item['title']; ?>
+						<i class="<?php echo $item['class']; ?>"></i>
+				</a>
+			</li>
+		<?php endforeach; ?>
+		</ul>
+	<?php endif; ?>
+</div>

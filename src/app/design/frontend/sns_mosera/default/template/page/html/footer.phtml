@@ -1,0 +1,224 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   design_default
+ * @package    Mage
+ * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+$themeCfg = Mage::helper('mosera/data');
+
+?>
+<!-- Footer -->
+<footer id="footer" class="clearfix second-bg">
+    <div class="footer-wrap container_9 ">
+        <div class="footer-set">
+            <div class="block">
+                <div class="block_content">
+                    <div class="logo_footer">
+                        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('mosera_logo_footer')->toHtml(); ?>
+                    </div>
+
+<!--                    <ul>-->
+<!--                        <li class="first_item"><a title="Specials" href="index.php?controller=prices-drop">Specials</a></li>-->
+<!--                        <li class="item"><a title="New products" href="index.php?controller=new-products">New products</a></li>-->
+<!--                        <li class="item"><a title="Best sellers" href="index.php?controller=best-sales">Best sellers</a></li>-->
+<!--                        <li class="item"><a title="Our stores" href="index.php?controller=stores">Our stores</a></li>-->
+<!--                        <li class="item"><a title="Contact us" href="index.php?controller=contact">Contact us</a></li>-->
+<!--                    </ul>-->
+                </div>
+            </div>
+            <div class="block">
+                <h4 style="color: #90c322">Address</h4>
+                <div class="block_content">
+                    <p><i style="color: #90c322" class="fa fa-home" aria-hidden="true"></i> Room 405, 4/F The Gregorian Building 2178 Taft Avenue, Malate, Manila, Philippines</p>
+                </div>
+            </div>
+            <div class="block">
+                <h4 style="color: #90c322">Telephone Number</h4>
+                <div class="block_content">
+                    <p><i style="color: #90c322" class="fa fa-phone" aria-hidden="true"></i> (02) 522 1181</p>
+                </div>
+            </div>
+            <div class="block last">
+                <h4 style="color: #90c322">Email Address</h4>
+                <div class="block_content">
+                    <p><i style="color: #90c322" class="fa fa-phone" aria-hidden="true"></i> <a href="mailto:info@greengeninc.com.ph">info@greengeninc.com.ph</a></p>
+                </div>
+            </div>
+        </div>
+        <footer id="footer-absolute" class="clearfix">
+<!--            <div class="copy">-->
+<!--                --><?php //echo $this->getCopyright() ?>
+<!--                --><?php //echo $this->__('Developed by'); ?><!-- <a href="http://www.snstheme.com/" data-toggle="tooltip" data-original-title="Visit SNSTheme.Com!" title="Visit SNSTheme.Com!">SNSTheme.Com</a>.-->
+<!--            </div>-->
+<!--            <div class="social">-->
+            <div class="text-center">
+                <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('sns/blocks/socials.phtml')->toHtml() ;?>
+            </div>
+<!--                <p><a href="#"> <em class="icon-facebook"><span>icon</span></em></a> <a href="#"><em class="icon-twitter"><span>icon</span></em></a> <a href="#"><em class="icon-rss"><span>icon</span></em></a> <a href="#"><em class="icon-pinterest"><span>icon</span></em></a> <a href="#"><em class="icon-google-plus"><span>icon</span></em></a></p>-->
+<!--            </div>-->
+        </footer>
+    </div>
+</footer>
+
+
+
+
+<!--<div class="footer_style">-->
+<!--	<div id="sns_footer_top" class="footer wrap">-->
+<!--		<div class="container">-->
+<!--			<div class="container_in">-->
+<!--				<div class="row">-->
+<!--					<div class="col-md-3 col-sm-6 col-xs-6 col-phone-12 ">-->
+<!--						<div class="logo_footer">-->
+<!--		                    --><?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('mosera_logo_footer')->toHtml(); ?>
+<!--		                </div>-->
+<!--		                <div class="social_footer">-->
+<!--							--><?php //echo $this->getLayout()->createBlock('core/template')->setTemplate('sns/blocks/socials.phtml')->toHtml() ;?>
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-3 col-sm-6 col-xs-6 col-phone-12 footer_staticblock">-->
+<!--						<div class="row">-->
+<!--							--><?php
+//								for($i=1; $i<=2; $i++){
+//									echo '<div class="col-md-12 column column'.$i.'">';
+//									echo ($themeCfg->getField('footer_staticblock_col'.$i)) ? $this->getLayout()->createBlock('cms/block')->setBlockId($themeCfg->getField('footer_staticblock_col'.$i))->toHtml() : '';
+//									echo '</div>';
+//								}
+//							?>
+<!--						</div>-->
+<!--					</div>-->
+<!--					-->
+<!--					<div class="col-md-3 col-sm-6 col-xs-6 col-phone-12 footer-new-tag">-->
+<!--						<div class="footer-newletter">-->
+<!--							--><?php //echo $this->getLayout()->createBlock('newsletter/subscribe')->setTemplate('newsletter/subscribe-footer.phtml')->toHtml(); ?>
+<!--						</div>-->
+<!--						<div class="footer-tag">-->
+<!--							--><?php //echo $this->getLayout()->createBlock('tag/popular')->setTemplate('tag/popular.phtml')->toHtml(); ?>
+<!--						</div>-->
+<!--					</div>-->
+<!--					<div class="col-md-3 col-sm-6 col-xs-6 col-phone-12 footer-blog">-->
+<!--                        --><?php //if ( Mage::helper('core')->isModuleEnabled('AW_Blog') ) echo $this->getLayout()->createBlock('blog/blog')->setTemplate('aw_blog/custom-bloglatest-v3.phtml')->toHtml() ;?>
+<!--                    </div>-->
+<!--					-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--	<div id="sns_footer_bottom" class="footer wrap">-->
+<!--		<div class="container">-->
+<!--			<div class="footer-bottom">-->
+<!--				<div class="menu_footer">-->
+<!--                    --><?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('mosera_menu_footer')->toHtml(); ?>
+<!--                </div>-->
+<!--				<div class="sns-copyright">-->
+<!--					--><?php //echo $this->getCopyright() ?><!-- -->
+<!--					--><?php //echo $this->__('Developed by'); ?><!-- <a href="http://www.snstheme.com/" data-toggle="tooltip" data-original-title="Visit SNSTheme.Com!" title="Visit SNSTheme.Com!">SNSTheme.Com</a>.-->
+<!---->
+<!--                </div>-->
+<!--				<div class="mosera_payment">-->
+<!--					--><?php //echo $this->getChildHtml('mosera_payment') ?>
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</div>-->
+<?php
+    $labels = '[';
+        $labels .= '"' . $this->__('Years') . '", ';
+        $labels .= '"' . $this->__('Months') . '", ';
+        $labels .= '"' . $this->__('Weeks') . '", ';
+        $labels .= '"' . $this->__('Days') . '", ';
+        $labels .= '"' . $this->__('Hrs') . '", ';
+        $labels .= '"' . $this->__('Mins') . '", ';
+        $labels .= '"' . $this->__('Secs') . '"';
+    $labels .= ']';
+    $labels1 = '[';
+        $labels1 .= '"' . $this->__('Year') . '", ';
+        $labels1 .= '"' . $this->__('Month') . '", ';
+        $labels1 .= '"' . $this->__('Week') . '", ';
+        $labels1 .= '"' . $this->__('Day') . '", ';
+        $labels1 .= '"' . $this->__('Hr') . '", ';
+        $labels1 .= '"' . $this->__('Min') . '", ';
+        $labels1 .= '"' . $this->__('Sec') . '"';
+    $labels1 .= ']';	
+?>
+
+<script type="text/javascript">
+//<![CDATA[
+    jQuery(function($){
+    	jQuery(document).ajaxComplete(function(){
+    		//console.log('ajaxComplete');
+	   	});
+	   	jQuery(document).ajaxSuccess(function(){
+    		//console.log('ajaxSuccess');
+	   	});
+    	jQuery(document).on('ready ajaxComplete', function(){
+    		// snsTooltip
+    		<?php if($themeCfg->getField('advance_showTooltip')):?>
+    		$("body#bd *[data-toggle='tooltip']").each(function(){
+    			if( $(this).parent().parent().hasClass('deals-action') ){
+    				$(this).tooltip({
+		        		container: 'body',
+		        		placement: 'right'
+		        	});
+    			}else{
+    				$(this).tooltip({
+		        		container: 'body'
+		        	});
+    			}
+    		})
+        	
+        	
+        	<?php endif; ?>
+        	// end snsTooltip
+        	
+        	// deals countdown
+			jQuery('.countdown').each(function(){
+				var enddate = jQuery(this).attr('data-endtime');
+				if(enddate) {
+					var enddateArr = enddate.split(',');
+					jQuery(this).countdown({
+				        until: new Date(enddateArr[0], enddateArr[1] - 1, enddateArr[2], enddateArr[3], enddateArr[4], enddateArr[5]),
+						labels: <?php echo $labels; ?>,
+						labels1: <?php echo $labels1; ?>
+				    });
+				}
+			});
+			// end deals countdown
+    	});
+        
+
+        <?php if($themeCfg->getField('advance_scrollAnimate')):?>
+		$('.owl-item, .item, .item-inner, [class*="col-"]').waypoint(function() {
+			$(this).addClass('animated');
+			$(this).toggleClass('fadeInUp');
+		}, {
+			offset: function() {
+				return $.waypoints('viewportHeight');
+			}
+		});
+        <?php endif; ?>
+		
+    });
+//]]>
+
+</script>

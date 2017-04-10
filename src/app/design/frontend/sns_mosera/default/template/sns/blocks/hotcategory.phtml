@@ -1,0 +1,120 @@
+<?php
+	$themeCfg = Mage::helper('mosera/data');
+	$enabled = $themeCfg->getField('hotcategory_enabled');
+	$partnersStyle = '';
+	$bgColor = $themeCfg->getField('hotcategory_bg_color');
+	$bgImg = Mage::helper('cms')->getBlockTemplateProcessor()->filter($themeCfg->getField('hotcategory_bg_img'));
+	if (preg_match('/^wysiwyg/i', $bgImg)) {
+		$bgImg = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$bgImg;
+		$partnersStyle .= 'background-image: url(\''.$bgImg.'\');';
+	}
+
+	$partnersStyle .= ($bgColor) ? 'background-color: '.$bgColor.';' : '';
+	if($enabled == 1) :
+		$category = $themeCfg->getField('hotcategory_category');
+		$array_category = unserialize($category);
+		$id = 1;
+		$collect_category = array();
+		foreach($array_category as $key=>$category){
+			$category['id'] = $id;
+			$category['image'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($category['image']);
+			if (preg_match('/^wysiwyg/i', $category['image'])) {
+				$category['image'] = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$category['image'];
+			}
+			$category['link'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($category['link']);
+            $category_des .= $this->getLayout()->createBlock('cms/block')->setBlockId($category['block_id'])->toHtml();
+            $category['desc'] = $this->getLayout()->createBlock('cms/block')->setBlockId($category['block_id'])->toHtml();
+			$haveHttp =  strpos(trim($category['link']), "http://"); 
+			if(!$haveHttp && ($haveHttp!==0)){
+				//$category['link'] = "http://" . trim($partner['link']);  
+			}else {
+				//$category['link'] = trim($partner['link']);
+			}
+			$collect_category[] = $category;
+			$id++;
+		}
+if($collect_category) :
+    $uniqued ='sns_hotcategory_'.rand().time();
+?>
+<div class="sns-hotcategory block sns-slider" id="sns_lider<?php echo $uniqued; ?>" style="<?php echo $partnersStyle; ?> ">
+        <div class=" slider-inner">
+            <div class="block-title">
+                <span><?php echo $themeCfg->getField('hotcategory_title'); ?></span>
+                <div class="navslider">
+                    <a class="prev" href="#"><i class="fa fa-caret-left"></i></a>
+                    <a class="next" href="#"><i class="fa fa-caret-right"></i></a>
+                </div>
+            </div>
+            <div class="container-slider">
+                <div class="products-grid">
+                    <?php foreach($collect_category as $category) : ?>
+                    <div class="row-item mini-products-list">
+                        <div class="item">
+                            <div class="module-slide">
+                                <img alt="" src="<?php echo $category['image']; ?>" />
+                                <div class="slider-content">
+                                    <p class="title-content">
+                                        <a  target="<?php echo $category['target']; ?>" href="<?php echo $category['link']; ?>">
+                                            <?php echo $category['title']; ?>
+                                        </a>
+                                    </p>
+                                    
+                                    <div class="view-more">
+                                        <a target="<?php echo $category['target']; ?>" href="<?php echo $category['link']; ?>">
+                                            <span>View category</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item-des">
+                                    <?php echo $category['desc']; ?>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <script>
+                jQuery(document).ready(function($) {
+                    $('#sns_lider<?php echo $uniqued; ?> div.products-grid').owlCarousel({
+                        items: 5,
+                        responsive : {
+                            0 : { items: 1 },
+                            480 : { items: 2 },
+                            768 : { items: 3 },
+                            992 : { items: 5 },
+                            1200 : { items: 5 }
+                        },
+                        loop:false,
+                        responsiveClass:true,
+                        nav: false,
+                        navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+                        dots: false,
+                        slideSpeed : 800,
+                        autoplay: true,
+                        autoplayTimeout: 300000,
+                        addClassActive: false,
+                        onInitialized: callback
+                    });
+                    function callback(event) {
+                        if(this._items.length > this.settings.items){
+                                $('#sns_lider<?php echo $uniqued; ?> .navslider').show();
+                            }else{
+                                $('#sns_lider<?php echo $uniqued; ?> .navslider').hide();
+                            }
+                    }
+                    $('#sns_lider<?php echo $uniqued; ?> .navslider .prev').on('click', function(e){
+                        e.preventDefault();
+                        $('#sns_lider<?php echo $uniqued; ?> div.products-grid').trigger('prev.owl.carousel');
+                    });
+                    $('#sns_lider<?php echo $uniqued; ?> .navslider .next').on('click', function(e){
+                        e.preventDefault();
+                        $('#sns_lider<?php echo $uniqued; ?> div.products-grid').trigger('next.owl.carousel');
+                    });
+                });
+        </script>
+        </div>
+</div>
+<?php endif; ?>
+<?php endif; ?>

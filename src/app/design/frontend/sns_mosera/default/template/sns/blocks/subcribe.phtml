@@ -1,0 +1,194 @@
+<?php
+$themeCfg = Mage::helper('mosera/data');
+$themeName = Mage::getSingleton("core/design_package")->getPackageName();
+$bgImg = Mage::helper('cms')->getBlockTemplateProcessor()->filter($themeCfg->getField('newsletterpopup_background'));
+if (preg_match('/^wysiwyg/i', $bgImg)) {
+    $bgImg = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$bgImg;
+    $popupStyle .= 'background-image: url(\''.$bgImg.'\');';
+}
+$enabled = $themeCfg->getField('newsletterpopup_isenabled');
+$title = $themeCfg->getField('newsletterpopup_title');
+$desc = $themeCfg->getField('newsletterpopup_description');
+$cookie = $themeCfg->getField('newsletterpopup_cookietime');
+$width = $themeCfg->getField('newsletterpopup_width');
+$height = $themeCfg->getField('newsletterpopup_height');
+$template = $themeCfg->getField('newsletterpopup_template');
+//var_dump($themeName); die;
+//var_dump($enabled); die;
+?>
+<?php if($enabled): ?>
+    <?php if($template == 'fixed'): ?><!-- Begin: Template Fixed Right -->
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#newsletter-fixed').css({
+                'width' : <?php echo $width; ?>,
+                'height' : <?php echo $height; ?>,
+                'right' : - <?php echo $width; ?>,
+                'top' : 200
+            });
+            jQuery('#newsletter-fixed').mouseenter(function(el){
+                jQuery(this).stop().animate({
+                    'right':'0px',
+                    'z-index':'999'
+                }, 300);
+            });
+            jQuery('#newsletter-fixed').mouseleave(function(el){
+                jQuery(this).stop().animate({
+                    'right': - <?php echo $width; ?>,
+                    'z-index':'998'
+                }, 500);
+            });
+            jQuery('#newsletter-fixed-close').click(function(el) {
+                jQuery('#newsletter-fixed').stop().animate({
+                    'right': - <?php echo $width; ?>,
+                    'z-index':'998'
+                }, 100);
+            });
+            var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter');
+            if(check_cookie == null || check_cookie == 'false') {
+                fixedNewsletter();
+            }
+            jQuery('#newsletter-fixed').on('mouseleave', function(){
+                if(jQuery(this).find('input:checked').length){
+                    var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowfixedpnewsletter');
+                    if(check_cookie == null || check_cookie == 'false') {
+                        jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter','true',{ expires: <?php echo $cookie; ?>});
+                        fixedClose(); 
+                    }
+                    else
+                    {
+                        jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter','false');
+                        fixedNewsletter();
+                    }
+                } else {
+                    jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter','false');
+                }
+            });
+
+            jQuery(window).on("load", function() {
+                var subcribed = jQuery('.messages .success-msg ul li span');
+                if(subcribed.length > 0){ 
+                    fixedClose();
+                    var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter');
+                    if(check_cookie == null || check_cookie == 'false') {
+                        jQuery.cookie('<?php echo $themeName ?>_dontshowfixednewsletter','true',{ expires: <?php echo $cookie ?>});
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                } else {
+                    return false;
+                }
+                
+            });
+
+            
+
+        });
+        function fixedNewsletter() {
+                jQuery('#newsletter-fixed').show();
+            };
+
+        function fixedClose() {
+            jQuery('#newsletter-fixed').hide();
+        }
+    </script>
+    <div id="newsletter-fixed" style="display: none; <?php echo $popupStyle; ?>">
+        <div id="newsletter-fixed-btn"><i class="fa fa-envelope"></i></div>
+        <div class="inner">
+            <div class="subscribe-title">
+                <?php if ($title): ?>
+                        <h3 class="title"><?php echo $this->__($title) ?></h3>
+                    <?php endif; ?>
+                <?php if ($desc): ?>
+                    <div class="description"><?php echo $desc ?></div>
+                <?php endif; ?>
+            </div>
+            <?php echo $this->getLayout()->createBlock('newsletter/subscribe')->setTemplate('newsletter/subscribe-content.phtml')->toHtml(); ?>
+            <div class="subscribe-bottom"><input id="dont-show-again" type="checkbox"><?php echo $this->__("Hide the Newsletter Fixed Right"); ?></div>
+        </div>
+        <div id="newsletter-fixed-close"><i class="fa fa-close"></i></div>
+    </div>
+    <?php endif; ?><!-- End: Template Fixed Right %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+
+    <?php if($template == 'popup'): ?><!-- Begin: Template Popup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter');
+        if(check_cookie == null || check_cookie == 'false') {
+            popupNewsletter();
+        }
+        jQuery('#newsletter-popup .subscribe-bottom input').on('click', function(){
+            if(jQuery(this).parent().find('input:checked').length){
+                var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter');
+                if(check_cookie == null || check_cookie == 'false') {
+                    jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter','true',{ expires: <?php echo $cookie; ?>});
+                }
+                else
+                {
+                    jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter','false');
+                    popupNewsletter();
+                }
+            } else {
+                jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter','false');
+            }
+        });
+
+        jQuery(window).on("load", function() {
+            var subcribed = jQuery('.messages .success-msg ul li span');
+            if(subcribed.length > 0){
+                popupClose();
+                var check_cookie = jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter');
+                if(check_cookie == null || check_cookie == 'false') {
+                    jQuery.cookie('<?php echo $themeName ?>_dontshowpopupnewsletter','true',{ expires: <?php echo $cookie ?>});
+                }
+                else
+                {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        });
+
+        });
+        function popupNewsletter() {
+            jQuery.fancybox({
+                'padding': '0',
+                'width': '<?php echo $width ?>',
+                'height':'<?php echo $height ?>',
+                'autoSize': false,
+    //            'autoHeight': true,
+                'type': 'inline',
+                'scrolling': 'no',
+                'href': '#newsletter-popup'
+            });
+            jQuery("#newsletter-popup").trigger('click');
+        };
+
+        function popupClose() {
+            parent.jQuery.fancybox.close();
+        }
+
+    </script>
+    <center style="display:none;">
+        <div id="newsletter-popup" style="<?php echo $popupStyle; ?>">
+            <div class="promotional-popup">
+                <div class="subscribe-title">
+                    <?php if ($title): ?>
+                        <h3 class="title"><?php echo $this->__($title) ?></h3>
+                    <?php endif; ?>
+                    <?php if ($desc): ?>
+                        <div class="description"><?php echo $desc ?></div>
+                    <?php endif; ?>
+                </div>
+                <?php echo $this->getLayout()->createBlock('newsletter/subscribe')->setTemplate('newsletter/subscribe-content.phtml')->toHtml(); ?>
+                <div class="subscribe-bottom"><input id="dont-show-again" type="checkbox"><?php echo $this->__("Don't show this popup again"); ?></div>
+            </div>
+        </div>
+    </center>
+    <?php endif; ?><!-- End: Template Popup -->
+
+<?php endif; ?>

@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b8a4d45-1cb3-4077-a9b1-727e31b89a9c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---626_LAYOUT_1A2BE81864D8F6BBE973FE856569783EC" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---626_LAYOUT_INSTALL_STORE1_DEFAULT_DEFAULT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_LAYOUT_1A2BE81864D8F6BBE973FE856569783EC" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_LAYOUT_INSTALL_STORE1_DEFAULT_DEFAULT" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_country_AZ" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_country_AZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_country_BA" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_country_BA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_country_MN" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_country_MN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_country_MY" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_country_MY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_country_RS" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_country_RS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_country_CN" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_country_CN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_country_HK" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_country_HK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_country_TW" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_country_TW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--0/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_language_az" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_language_az" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_language_bs" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_language_bs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_language_mn" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_language_mn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_language_ms" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_language_ms" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_language_sr" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_language_sr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_language_zh" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_language_zh" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_language_zh" afterPath="$PROJECT_DIR$/src/var/cache/mage--1/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_language_zh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_az_Latn_AZ_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_bs_Latn_BA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_mn_Cyrl_MN_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_ms_Latn_MY_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_sr_Latn_RS_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hans_CN_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_HK_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleC_zh_Hant_TW_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleL_en_US_windowstotimezone_" afterPath="$PROJECT_DIR$/src/var/cache/mage--3/mage---internal-metadatas---626_Zend_LocaleL_en_US_windowstotimezone_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--8/mage---internal-metadatas---626_JAVASCRIPT_TRANSLATE_CONFIG" afterPath="$PROJECT_DIR$/src/var/cache/mage--8/mage---internal-metadatas---626_JAVASCRIPT_TRANSLATE_CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--b/mage---internal-metadatas---626_Zend_LocaleL_en_US_language_" afterPath="$PROJECT_DIR$/src/var/cache/mage--b/mage---internal-metadatas---626_Zend_LocaleL_en_US_language_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_country_ZA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_country_ZA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_language_af" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_language_af" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_country_DZ" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_country_DZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_country_EG" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_country_EG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_language_ar" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_country_KW" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_country_KW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_country_MA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_country_MA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_language_ar" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_country_SA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_country_SA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_be_BY_country_BY" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_be_BY_country_BY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_be_BY_language_be" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_be_BY_language_be" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_country_BG" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_country_BG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_language_bg" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_language_bg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_country_BD" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_country_BD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_language_bn" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_language_bn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_country_ES" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_language_ca" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_language_ca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_country_CZ" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_country_CZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_country_GB" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_country_GB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_da_DK_country_DK" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_da_DK_country_DK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_da_DK_language_da" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_da_DK_language_da" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_AT_country_AT" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_AT_country_AT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_AT_language_de" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_AT_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_CH_country_CH" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_CH_country_CH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_CH_language_de" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_CH_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_DE_country_DE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_DE_country_DE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_DE_language_de" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_de_DE_language_de" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_el_GR_country_GR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_el_GR_country_GR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_AU_country_AU" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_AU_country_AU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_CA_country_CA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_CA_country_CA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_CA_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_CA_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_GB_country_GB" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_GB_country_GB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_GB_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_GB_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_IE_country_IE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_IE_country_IE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_IE_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_IE_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_country_NZ" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_country_NZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_US_country_US" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_en_US_country_US" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_AR_country_AR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_AR_country_AR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CL_country_CL" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CL_country_CL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CO_country_CO" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CO_country_CO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CR_country_CR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_CR_country_CR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_ES_country_ES" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_MX_country_MX" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_MX_country_MX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_PA_country_PA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_PA_country_PA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_PE_country_PE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_PE_country_PE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_VE_country_VE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_es_VE_country_VE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_et_EE_country_EE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_et_EE_country_EE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_et_EE_language_et" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_et_EE_language_et" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_country_IR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_country_IR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_language_fa" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_language_fa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_country_FI" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_country_FI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_language_fi" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_language_fi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_country_CA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_country_CA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_language_fr" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_language_fr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_country_FR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_country_FR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_country_ES" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_country_ES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_country_IN" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_country_IN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_he_IL_country_IL" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_he_IL_country_IL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_he_IL_language_he" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_he_IL_language_he" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_country_IN" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_country_IN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_country_HR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_country_HR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_country_HU" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_country_HU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_id_ID_country_ID" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_id_ID_country_ID" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_id_ID_language_id" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_id_ID_language_id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_is_IS_country_IS" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_is_IS_country_IS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_it_CH_country_CH" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_it_CH_country_CH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_it_IT_country_IT" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_it_IT_country_IT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_country_JP" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_country_JP" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_language_ja" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_language_ja" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_country_GE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_country_GE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_language_ka" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_language_ka" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_km_KH_country_KH" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_km_KH_country_KH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_country_KR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_country_KR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_country_LA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_country_LA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_country_LT" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_country_LT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_country_LV" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_country_LV" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_country_MK" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_country_MK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_country_NO" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_country_NO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_country_NL" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_country_NL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_country_NO" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_country_NO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_country_PL" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_country_PL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_country_BR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_country_BR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_country_PT" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_country_PT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_country_RO" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_country_RO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_country_RU" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_country_RU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_country_SK" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_country_SK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_country_SI" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_country_SI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_country_AL" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_country_AL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_country_SE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_country_SE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_country_KE" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_country_KE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_th_TH_country_TH" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_th_TH_country_TH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_country_TR" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_country_TR" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_country_UA" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_country_UA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_country_VN" afterPath="$PROJECT_DIR$/src/var/cache/mage--c/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_country_VN" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_language_ar" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_language_ar" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_language_ar" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_language_ar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_language_cs" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_language_cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_language_cy" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_language_cy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_el_GR_language_el" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_el_GR_language_el" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_AU_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_AU_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_US_language_en" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_en_US_language_en" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_AR_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_AR_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CL_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CL_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CO_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CO_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CR_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_CR_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_ES_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_ES_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_MX_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_MX_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_PA_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_PA_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_PE_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_PE_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_VE_language_es" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_es_VE_language_es" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_country_PH" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_country_PH" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_language_fr" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_language_fr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_language_gl" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_language_gl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_language_gu" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_language_gu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_language_hi" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_language_hi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_language_hr" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_language_hr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_language_hu" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_language_hu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_is_IS_language_is" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_is_IS_language_is" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_it_CH_language_it" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_it_CH_language_it" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_it_IT_language_it" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_it_IT_language_it" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_km_KH_language_km" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_km_KH_language_km" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_language_ko" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_language_ko" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_language_lo" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_language_lo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_language_lt" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_language_lt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_language_lv" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_language_lv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_language_mk" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_language_mk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_language_nb" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_language_nb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_language_nl" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_language_nl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_language_nn" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_language_nn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_language_pl" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_language_pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_language_pt" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_language_pt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_language_pt" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_language_pt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_language_ro" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_language_ro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_language_ru" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_language_ru" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_language_sk" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_language_sk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_language_sl" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_language_sl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_language_sq" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_language_sq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_language_sv" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_language_sv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_language_sw" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_language_sw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_th_TH_language_th" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_th_TH_language_th" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_language_tr" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_language_tr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_language_uk" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_language_uk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_language_vi" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_language_vi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleL_en_US_territory_2" afterPath="$PROJECT_DIR$/src/var/cache/mage--d/mage---internal-metadatas---626_Zend_LocaleL_en_US_territory_2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_af_ZA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_DZ_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_EG_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_KW_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_MA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ar_SA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_be_BY_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_be_BY_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_bg_BG_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_bn_BD_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ca_ES_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_cs_CZ_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_cy_GB_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_da_DK_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_da_DK_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_AT_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_AT_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_CH_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_CH_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_DE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_de_DE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_el_GR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_el_GR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_AU_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_AU_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_CA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_CA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_GB_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_GB_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_IE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_IE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_NZ_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_US_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_en_US_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_AR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_AR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CL_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CL_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CO_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CO_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_CR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_ES_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_ES_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_MX_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_MX_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_PA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_PA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_PE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_PE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_VE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_es_VE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_et_EE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_et_EE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fa_IR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fi_FI_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_language_fil" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_language_fil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fr_CA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_fr_FR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_gl_ES_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_gu_IN_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_he_IL_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_he_IL_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hi_IN_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hr_HR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_hu_HU_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_id_ID_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_id_ID_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_is_IS_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_is_IS_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_it_CH_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_it_CH_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_it_IT_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_it_IT_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ja_JP_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ka_GE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_km_KH_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_km_KH_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ko_KR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lo_LA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lt_LT_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_lv_LV_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_mk_MK_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nb_NO_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nl_NL_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_nn_NO_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pl_PL_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pt_BR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_pt_PT_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ro_RO_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_ru_RU_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sk_SK_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sl_SI_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sq_AL_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sv_SE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_sw_KE_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_th_TH_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_th_TH_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_tr_TR_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_uk_UA_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--e/mage---internal-metadatas---626_Zend_LocaleC_vi_VN_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_en_001_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_en_001_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_es_419_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_es_419_parentlocale_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_parentlocale_" afterPath="$PROJECT_DIR$/src/var/cache/mage--f/mage---internal-metadatas---626_Zend_LocaleC_fil_PH_parentlocale_" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="local.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/local.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1522">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/etc/local.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-825">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header_style1.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/header_style1.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+              <folding>
+                <element signature="e#6#976#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paypal.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/paypal.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/footer.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="green_gen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/green_gen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10272">
+              <caret line="321" column="1" lean-forward="false" selection-start-line="321" selection-start-column="1" selection-end-line="321" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme-90c322ec5a5a.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme-90c322ec5a5a.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="125325" lean-forward="false" selection-start-line="0" selection-start-column="125313" selection-end-line="0" selection-end-column="125325" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top-cart.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/top-cart.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mosera/data/getT</find>
+      <find>mosera/data/getThe</find>
+      <find>mosera/data/getTheme</find>
+      <find>css</find>
+      <find>sns-h</find>
+      <find>sns-hea</find>
+      <find>sns_header</find>
+      <find>my</find>
+      <find>login</find>
+      <find>policy-ct</find>
+      <find>static_content</find>
+      <find>items</find>
+      <find>shopping</find>
+      <find>0</find>
+      <find>products</find>
+      <find>navbar</find>
+      <find>header</find>
+      <find>top-cart</find>
+      <find>setting-active</find>
+      <find>module-ct</find>
+      <find>form-search</find>
+      <find>footer</find>
+      <find>.first-bg</find>
+      <find>first-bg</find>
+      <find>second</find>
+      <find>footer-styl</find>
+      <find>--&gt;</find>
+      <find>footer_style</find>
+      <find>btn</find>
+      <find>button</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/app</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/1column.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-left.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-right.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/3columns.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/dashboard.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/head.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/footer.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/products/slider.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/local.xml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/mainmenu.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/top-cart.phtml" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/template/links.phtml" />
+        <option value="$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/global.css" />
+        <option value="$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme-90c322ec5a5a.css" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/page.xml" />
+        <option value="$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/green_gen.css" />
+        <option value="$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/header_style1.phtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns_mosera" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns_mosera" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sns_mosera" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminhtml" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="green-gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b8a4d45-1cb3-4077-a9b1-727e31b89a9c" name="Default" comment="" />
+      <created>1491178523784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491178523784</updated>
+      <workItem from="1491178527952" duration="948000" />
+      <workItem from="1491221069585" duration="1933000" />
+      <workItem from="1491484231516" duration="7198000" />
+      <workItem from="1491523482357" duration="483000" />
+      <workItem from="1491705105997" duration="8440000" />
+      <workItem from="1491781999361" duration="578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-left.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="117" column="46" lean-forward="false" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3008">
+          <caret line="119" column="46" lean-forward="false" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/3columns.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="118" column="46" lean-forward="false" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/footer_style1.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/dashboard.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/print.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/redirect.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/rwd/default/layout/bundle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/rwd/default/etc/widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/rwd/default/etc/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/header_style2.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/template/useful-links.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/footer_style1.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/print.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/redirect.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-left.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="117" column="46" lean-forward="false" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme-0a33312e2606.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme-1a524f8c4e1c.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89117">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/3columns.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="118" column="46" lean-forward="false" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/2columns-right.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="119" column="46" lean-forward="false" selection-start-line="119" selection-start-column="40" selection-end-line="119" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/code/local/Sns/Mosera/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="105" column="5" lean-forward="false" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/products/slider.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/template/container.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/1column.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/dashboard.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="37" column="93" lean-forward="false" selection-start-line="37" selection-start-column="93" selection-end-line="37" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/one-column.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/head.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/sidenav.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/category.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/findus.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/menu.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/quickcontact.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/template/links.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="42" column="68" lean-forward="false" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/top.links.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/mainmenu.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/grid.css" />
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/custom_css/global.css" />
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/global.css" />
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/custom-style.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/footer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/theme-90c322ec5a5a.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="125325" lean-forward="false" selection-start-line="0" selection-start-column="125313" selection-end-line="0" selection-end-column="125325" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skin/frontend/sns_mosera/default/css/green_gen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10272">
+          <caret line="321" column="1" lean-forward="false" selection-start-line="321" selection-start-column="1" selection-end-line="321" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/sns/blocks/top-cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/paypal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/template/page/html/header_style1.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="70" column="57" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
+          <folding>
+            <element signature="e#6#976#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/design/frontend/sns_mosera/default/layout/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1522">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/etc/local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

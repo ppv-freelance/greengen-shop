@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    	<remove name="currency" />
+    	<remove name="right_currency" />
+
+    	<reference name="root">
+            <block type="core/text_list" name="before_footer" translate="label">
+                <label>before_footer</label>
+            </block>
+            <block type="catalog/product_list_upsell" name="product.info.upsell" as="upsell_products" template="sns/blocks/upsell.phtml">
+                <action method="setColumnCount"><columns>4</columns></action>
+                <action method="setItemLimit"><type>upsell</type><limit>4</limit></action>
+            </block> 
+        </reference>
+        <reference name="header">
+            <block type="page/switch" name="store_language" as="store_language" template="page/switch/languages.phtml"/>
+            <!--<block type="directory/currency" name="currency_top" template="directory/currency.phtml"/>-->
+        </reference>
+    	<reference name="head">
+    		<!-- Theme css -->
+    		<action method="addItem"><type>js_css</type><name>sns/fancybox2/jquery.fancybox.css</name></action>
+    		<action method="addItem"><type>js_css</type><name>sns/fancybox2/helpers/jquery.fancybox-buttons.css</name></action>
+    		<action method="addItem"><type>js_css</type><name>sns/fancybox2/helpers/jquery.fancybox-thumbs.css</name></action>
+
+        	<action method="addItem"><type>js_css</type><name>sns/owl-carousel/owl.carousel.css</name></action>
+        	<action method="addItem"><type>js_css</type><name>sns/owl-carousel/owl.transitions.css</name></action>
+            <action method="addItem"><type>js_css</type><name>sns/bootstrap/js/bootstrap-select.min.css</name></action>
+        	
+        	<action method="addItem"><type>js_css</type><name>sns/jqtransform/css/jqtransform.css</name></action>
+
+            <action method="addItem"><type>skin_css</type><name helper="mosera/data/getThemeCSS"/><params/></action>
+            <!-- End Theme css -->
+            
+            <!-- Theme js -->
+
+            <action method="addItem"><type>skin_js</type><name>js/lib/modernizr.custom.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/matchMedia.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/matchMedia.addListener.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/enquire.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/lib/imagesloaded.js</name></action>
+
+            <action method="addJs"><script>sns/countdown/jquery.plugin.min.js</script></action>
+            <action method="addJs"><script>sns/countdown/jquery.countdown.min.js</script></action>
+			
+            <action method="addJs"><script>sns/tabdrop/bootstrap-tabdrop.js</script></action>
+            <action method="addJs"><script>sns/owl-carousel/owl.carousel.min.js</script></action>
+            <action method="addJs"><script>sns/bootstrap/js/bootstrap-select.js</script></action>
+            <action method="addJs"><script>sns/jqtransform/js/jquery.jqtransform.js</script></action>
+            <action method="addJs"><script>sns/fancybox2/jquery.fancybox.pack.js</script></action>
+            
+            <action method="addJs"><script>sns/waypoints/waypoints.min.js</script></action>
+
+            <action method="addJs" ifconfig="sns_mosera_cfg/advance/showCpanel"><script>sns/minicolors/jquery.miniColors.min.js</script></action>
+            <action method="addCss" ifconfig="sns_mosera_cfg/advance/showCpanel"><stylesheet>css/sns-cpanel.css</stylesheet></action>
+            <action method="addItem" ifconfig="sns_mosera_cfg/advance/showCpanel"><type>js_css</type><name>sns/minicolors/jquery.miniColors.css</name></action>
+            <action method="addItem" ifconfig="sns_mosera_cfg/advance/showCpanel"><type>skin_js</type><name>js/sns-cpanel.js</name></action>
+			
+			<action method="addItem"><type>skin_js</type><name>js/sns-extend.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/app.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/sns-script.js</name></action>
+            
+    		<!-- End Theme js -->
+    	</reference>
+
+        <reference name="right">
+        	<!-- <block type="catalog/product_compare_sidebar" after="catalog.leftnav" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/> -->
+		    <block type="cms/block" name="sidebar.banner">
+		        <action method="setBlockId"><block_id>mosera_banner_cat</block_id></action>
+		    </block>
+		    <!-- <block type="tag/popular" name="tags_popular" after="catalog.product.related" template="tag/popular.phtml"/> -->
+        </reference>
+        
+    	<reference name="before_body_end">
+    		<block type="core/template" name="sns.cpanel" template="sns/blocks/utilities/cpanel.phtml" />
+    		<block type="core/template" name="sns.scrolltotop" template="sns/blocks/utilities/scrolltotop.phtml" />
+    		<block type="core/template" name="sns.sticky" template="sns/blocks/sticky.phtml" />
+    		<block type="core/template" name="sns.jsquickview" template="sns/blocks/quickview/jsquickview.phtml" />
+    		<!-- <block type="core/template" name="sns.testlist" template="sns/blocks/utilities/testlist.phtml" /> -->
+            <block type="core/template" name="newsletter.popup" template="sns/blocks/subcribe.phtml"/>
+        </reference>
+        
+        <reference name="footer">
+        	<block type="twitter/list" name="twitter_footer" />
+            
+            <block type="cms/block" name="mosera_payment">
+                <action method="setBlockId"><block_id>mosera_payment</block_id></action>
+            </block>
+            <block type="facebook/list" name="mosera_facebooks"/>
+
+			<block type="cms/block" name="footer_links">
+				<action method="setBlockId"><block_id>footer_links</block_id></action>
+			</block>
+        </reference>
+    </default>
+    
+    
+    <!-- <cms_index_index>
+        <reference name="header">
+            <block type="mosera/wrapper" name="section.moseraheader" as="cat_slideshow">
+                <action method="setParams"><params>class="mrb30"</params></action>
+                <block type="mosera/wrapper" name="section.moseraheader.no1">
+                    <action method="setId"><id>sns_slideshow</id></action>
+                    <block type="core/template" template="sns/blocks/slideshow.phtml" />
+                </block>
+            </block>
+        </reference>
+        <reference name="before_content">
+            <block type="mosera/wrapper" name="sns_after_slidercategory_content">
+                <action method="setParams"><params>class="sns_slidercategory"</params></action>
+                <block type="mosera/wrapper" name="section.slidercategory">
+                    <action method="setId"><id>sns_slidercategory</id></action>
+                    <block type="mosera/wrapper" name="wrap.slidercategory">
+                        <block type="core/template" template="sns/blocks/category.phtml" />
+                    </block>
+                </block>
+            </block>
+        </reference>
+        
+
+        <reference name="content">
+            <block type="cms/block" name="mosera_banner_top">
+                <action method="setBlockId"><block_id>mosera_banner_top</block_id></action>
+            </block>
+            <block type="products/slider" name="section.botsl2.slider" template="sns/products/slider.phtml">
+                <action method="setConfig">
+                    <name>
+                        <title>NEW products</title>
+                        <product_limitation>36</product_limitation>
+                        <product_order_by>created_at</product_order_by>
+                    </name>
+                </action>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_policy_content">
+                <action method="setParams"><params>class="policy_content"</params></action>
+                <block type="cms/block" name="mosera_home1_banner1">
+                    <action method="setBlockId"><block_id>mosera_banner1</block_id></action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_product">
+                <action method="setParams"><params>class="container"</params></action>
+                <block type="products/slider" name="section.sns_after_product" template="sns/products/slider.phtml">
+                    <action method="setConfig">
+                        <name>
+                            <title>Featured products</title>
+                            <product_limitation>36</product_limitation>
+                            <product_order_by>is_featured</product_order_by>
+                        </name>
+                    </action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_static">
+                <action method="setParams"><params>class="static_content"</params></action>
+                <block type="cms/block" name="mosera_home1_banner1">
+                    <action method="setBlockId"><block_id>mosera_banner2</block_id></action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_bottom_content">
+                <action method="setParams"><params>class="container"</params></action>
+                <block type="mosera/wrapper" name="testimonial_home">
+                    <block type="core/template" template="sns/blocks/testimonial.phtml" />
+                </block>
+                <block type="mosera/wrapper" name="section.after.no1">
+                    <action method="setRow"><row>1</row></action>
+                    <block type="mosera/wrapper" name="section.no1.no2">
+                        <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                        <block type="products/slider" name="section.sns_after_product" template="sns/products/sliderv2.phtml">
+                            <action method="setConfig">
+                                <name>
+                                    <title>May you like !</title>
+                                    <product_limitation>6</product_limitation>
+                                    <product_order_by>created_at</product_order_by>
+                                </name>
+                            </action>
+                        </block>
+                    </block>
+                    <block type="mosera/wrapper" name="section.after.no2">
+                        <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                        <block type="products/slider" name="section.sns_after_product" template="sns/products/sliderv2.phtml">
+                            <action method="setConfig">
+                                <name>
+                                    <title>Most viewed</title>
+                                    <product_limitation>6</product_limitation>
+                                    <product_order_by>most_viewed</product_order_by>
+                                </name>
+                            </action>
+                        </block>
+                    </block>
+                </block>
+                <block type="mosera/wrapper" name="panert_home">
+                    <block type="core/template" template="sns/blocks/partners.phtml" />
+                </block>
+            </block>
+        </reference>
+    </cms_index_index> -->
+
+	<catalog_category_default>
+
+	</catalog_category_default>
+
+	<catalog_product_view>
+        <reference name="head">
+            <action method="addJs"><script>sns/elevatezoom/jquery.elevatezoom.js</script></action>
+        </reference>
+        <reference nam="before_body_end">
+            <remove name="newsletter.popup" />
+        </reference>
+        <reference name="right">
+		    <!-- <block type="cms/block" name="staticblock.banner.detail" after="catalog.categories">
+		        <action method="setBlockId"><block_id>mosera_banner_detail</block_id></action>
+		    </block> -->
+            <!-- <block type="catalog/product_list_related" name="catalog.product.related" as="related_products" template="sns/blocks/related.phtml">
+                    <action method="setColumnCount"><columns>1</columns></action>
+                    <action method="setItemLimit">
+                        <type>related</type>
+                        <limit>3</limit>
+                    </action>
+             </block> -->
+        </reference>
+	</catalog_product_view>
+	
+	<review_product_list>
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+        <reference name="head">
+            <action method="addJs"><script>sns/elevatezoom/jquery.elevatezoom.js</script></action>
+        </reference>
+	</review_product_list>
+</layout>
+
+
+
+
+

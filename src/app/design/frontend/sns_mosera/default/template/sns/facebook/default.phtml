@@ -1,0 +1,35 @@
+<?php
+/*------------------------------------------------------------------------
+ # SNS Facebook - Version 1.0
+ * Copyright (C) 2013 The SNS Theme. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: SNS Theme
+ * Websites: http://www.snstheme.com
+-------------------------------------------------------------------------*/
+$options         = $this->getConfigObject();
+$facebookurl 	 = $this->getFbUrl();
+$block_id = 'sns_facebook_'.rand().time();
+?>
+<div class="title"><h6>Facebook</h6></div>
+<div id="<?php echo $block_id; ?>" class="sns-facebook">
+	<div id="fb-root">
+		<div class="facebook-fanbox" style="overflow-x : hidden;">
+			<div class="fb-like-box" data-href="<?php echo $facebookurl; ?>" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-width="262" data-show-border="false">
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+jQuery(document).ready(function() {
+	initfb(document, 'script', 'facebook-jssdk');
+});
+function initfb(d, s, id)
+{
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) 
+		return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334341610034299";
+	fjs.parentNode.insertBefore(js, fjs);
+}
+</script>

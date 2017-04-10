@@ -1,0 +1,211 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+if($this->getItems()->getSize()): 
+$blockId = 'related'.rand().time();
+$themeCfg =   Mage::helper('mosera/data');
+$imgSize = $themeCfg->getImgSize('XL');
+$imgSizeS = $themeCfg->getImgSize('S');
+?>
+<div id="<?php echo $blockId; ?>" class="block sns-slider">
+	<div class="block-title">
+		<strong><?php echo $this->__('Related Product') ?></strong>
+        <div class="navslider">
+			<a class="prev" href="#"><i data-icon="4" aria-hidden="true" class="fs1 fa"></i></a>
+			<a class="next" href="#"><i data-icon="5" aria-hidden="true" class="fs1 fa"></i></a>
+		</div>
+	</div>
+    	<div class="container-slider">
+			<div class="products-grid">
+		        <?php $i=0; foreach($this->getItems() as $_item): ?>
+	                
+		            <div class="item">
+		                <div class="item-inner">
+							<div class="prd">
+			                	<div class="item-img clearfix">
+	                                <div class="ico-label">
+	                                    <?php if ($newLabel) echo "<span class='ico-product ico-new'>".$this->__('New')."</span>"; ?>
+	                                    <?php if ($saleLabel) echo "<span class='ico-product ico-sale'>-".floor(100-($finalPrice/$price)*100)."%</span>"; ?>
+	                                    
+	                                </div>
+						            <a href="<?php echo $_item->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_item, 'small_image'), null, true) ?>" class="product-image<?php echo (count(Mage::getModel('catalog/product')->load($_item->getId())->getMediaGalleryImages()) > 0)?' have-additional':'';?>">
+						                <span class="image-main">
+						            	<img src="<?php echo $this->helper('catalog/image')->init($_item, 'small_image')->resize($imgWidth, $imgHeight); ?>" alt="<?php echo $this->stripTags($this->getImageLabel($_item, 'small_image'), null, true) ?>" />
+						                </span>
+						            </a>
+
+						            <div class="action-bot">
+				                        <div class="actions">
+				                            <ul class="add-to-links">
+				                            	<li data-id="qv_item_<?php echo $_item->getId(); ?>" class="wrap-quickview">
+				                                    <div class="quickview-wrap">
+				                                        <a class="sns-btn-quickview"  href="<?php echo $_item->getProductUrl() ?>" data-toggle="tooltip" data-placement="right" data-original-title="<?php echo $this->__('Quickview') ?>">
+				                                            <i class="fs1" data-icon="T" aria-hidden="true"></i>
+				                                        </a>
+				                                    </div>
+				                                </li>
+				                                <?php if ($this->helper('wishlist')->isAllow()): ?>
+				                                    <li><a title="<?php echo $this->__('Add to Wishlist') ?>" href="<?php echo $this->helper('wishlist')->getAddUrl($_item) ?>" class="link-wishlist" data-toggle="tooltip" data-placement="right"><i class="fs1" data-icon="" aria-hidden="true"></i></a></li>
+				                                <?php endif; ?>
+				                                <?php if($this->helper('catalog/product_compare')->getAddUrl($_item)): ?>
+				                                    <li><a title="<?php echo $this->__('Add to Compare') ?>" href="<?php echo $this->helper('catalog/product_compare')->getAddUrl($_item) ?>" class="link-compare" data-toggle="tooltip" data-placement="right"><i class="icon_balance" aria-hidden="true"></i></a></li>
+				                                <?php endif; ?>
+				                                
+				                            </ul>
+				                        </div>
+						            </div>
+
+			                    </div>
+
+			                    <div class="item-info">
+					                <div class="info-inner">
+					                    <div class="item-title">
+			                                <a href="<?php echo $_item->getProductUrl() ?>" title="<?php echo $this->stripTags($_item->getName(), null, true) ?>">
+				                                <?php
+				                                    if(strlen($this->htmlEscape($_item->getName())) > 22){
+				                                        echo substr($this->htmlEscape($_item->getName()), 0, 22) .' ...';
+				                                    }else{
+				                                        echo $this->htmlEscape($_item->getName());
+				                                    }
+				                                ?>
+			                                </a>
+			                            </div>
+				                        <div class="item-price">
+				                            <?php echo $this->getPriceHtml($_item, false, $uniqued) ?>
+				                            <?php echo $this->getReviewsSummaryHtml($_item, false, true)?>
+				                        </div>
+				                        <a class="tab-redmore" href="<?php echo $item->link ?>" onclick="javascript: return true"  title="<?php echo $item->title?>" >
+												Learn more
+											</a>
+				                        
+					                </div>
+				            	</div>
+
+			                    <div class="wrap-addtocart">
+				                    <?php if($_item->isSaleable()): ?>
+				                        <button title="<?php echo $this->__('Add to Cart') ?>" class="btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_item) ?>')" >
+				                        	<span><?php echo $this->__('Add to cart') ?></span>
+				                        </button>
+				                    <?php else: ?>
+				                        <span class="btn-cart out-of-stock" title="<?php echo $this->__('Out of stock') ?>" data-toggle="tooltip" data-placement="left" data-original-title="<?php echo $this->__('Out of stock') ?>"><span><?php echo $this->__('Out of stock') ?></span></span>
+				                    <?php endif; ?>
+				            	</div>
+								 
+							</div>
+							<?php 
+								$product = Mage::getModel('catalog/product')->load($_item->getId());
+								if($themeCfg->getField('general_galleryImg') && count($product->getMediaGalleryImages())) : 
+							?>
+	                    		<?php $uq = rand().time(); ?>
+							<?php endif; ?>
+		                </div>
+		            </div>
+
+		        <?php endforeach ?>
+			</div>
+	    </div>
+        <script type="text/javascript">decorateList('block-related', 'none-recursive')</script>
+    <script type="text/javascript">
+    //<![CDATA[
+    $$('.related-checkbox').each(function(elem){
+        Event.observe(elem, 'click', addRelatedToProduct)
+    });
+
+    var relatedProductsCheckFlag = false;
+    function selectAllRelated(txt){
+        if (relatedProductsCheckFlag == false) {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = true;
+            });
+            relatedProductsCheckFlag = true;
+            txt.innerHTML="<?php echo $this->__('unselect all') ?>";
+        } else {
+            $$('.related-checkbox').each(function(elem){
+                elem.checked = false;
+            });
+            relatedProductsCheckFlag = false;
+            txt.innerHTML="<?php echo $this->__('select all') ?>";
+        }
+        addRelatedToProduct();
+    }
+
+    function addRelatedToProduct(){
+        var checkboxes = $$('.related-checkbox');
+        var values = [];
+        for(var i=0;i<checkboxes.length;i++){
+            if(checkboxes[i].checked) values.push(checkboxes[i].value);
+        }
+        if($('related-products-field')){
+            $('related-products-field').value = values.join(',');
+        }
+    }
+    //]]>
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        jQuery(document).ready(function($) {
+			//$(window).load(function(){
+				$('#<?php echo $blockId; ?> .products-grid').owlCarousel({
+					responsive : {
+					    0 : { items: 1 },
+					    480 : { items: 2 },
+					    768 : { items: 2 },
+					    992 : { items: 3 },
+					    1200 : { items: 3 }
+					},
+					loop:true,
+					nav: false,
+		    		navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+					dots: false,
+					slideSpeed : 500,
+					autoPlay: false,
+					autoplayHoverPause: true,
+					addClassActive: true,
+					onInitialized: callback
+				});
+				function callback(event) {
+		   			if(this._items.length > this.options.items){
+					        $('#<?php echo $blockId; ?> .navslider').show();
+					    }else{
+					        $('#<?php echo $blockId; ?> .navslider').hide();
+					    }
+				}
+				$('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .products-grid').trigger('prev.owl.carousel');
+				});
+				$('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .products-grid').trigger('next.owl.carousel');
+				});
+		//	});
+        });
+    //]]>
+    </script>
+   
+</div>
+<?php endif ?>

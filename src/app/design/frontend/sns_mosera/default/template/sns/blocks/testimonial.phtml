@@ -1,0 +1,92 @@
+<?php
+	$themeCfg = Mage::helper('mosera/data');
+
+	$enabled = $themeCfg->getField('testimonial_status');
+	if($enabled == 1) :
+		$testimonials = $themeCfg->getField('testimonial_items');
+		$array_testimonials = unserialize($testimonials);
+		$collect_testimonials = array();
+		foreach($array_testimonials as $key=>$testimonial){
+			$testimonial['description'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($testimonial['description']);
+			$collect_testimonials[] = $testimonial;
+		}
+if($collect_testimonials) :
+	$blockId ='sns_testimonial_'.rand().time();
+?>
+
+<div class="block sns_testimonial" id="<?php echo $blockId; ?>">
+	<div class="module-left">
+		<div class="block-title">
+			<strong><?php echo $themeCfg->getField('testimonial_title'); ?></strong>
+		</div>
+		<p class="note"><?php echo $this->__('We always know how to listen to the opinions and contributions, consectetur adipiscing elit, sed do.Lorem ipsum dolor sit amet.') ?></p>
+	</div>
+	<div class="block_content testimonials_slider">
+		<div class="testimonials_slider_in">
+			<div class="our_testimonials" >
+				<?php foreach($collect_testimonials as $testimonial) : ?>
+					<div class="wrap">
+						
+                        <div class="content">
+                        	<div class="info">
+								<p><?php echo $testimonial['description']; ?></p>
+								
+							</div>
+	                        <div class="tes-info">
+									<div class="tes-info">
+	                                        <div class="name">
+	                                        	<p class="user"><?php echo $testimonial['name']; ?></p> - 
+	                                        	<p class="position"><?php echo $testimonial['position']; ?></p>
+	                                        </div>
+
+	                                    </div>
+								</div>
+							
+						</div>
+					</div>
+				<?php endforeach; ?>
+			</div>
+		</div>
+	</div>
+	<script>
+		jQuery(document).ready(function($) {
+			$(window).load(function(){
+				$('#<?php echo $blockId; ?> .our_testimonials').owlCarousel({
+					responsive : {
+								    0 : { items: 1}									    
+								},
+					loop:true,
+					nav: false,
+					dots: true,
+					slideSpeed : 1,
+					center: false,
+					autoplay: true,
+					autoplayTimeout: 30000,
+					autoplayHoverPause: true,
+					addClassActive: true,
+					// animateOut: 'slideOutDown',
+					// animateIn: 'flipInX',
+		            onInitialized: callback
+				});
+				function callback(event) {
+		   			if(this._items.length > this.options.items){
+					        $('#<?php echo $blockId; ?> .navslider').show();
+					    }else{
+					        $('#<?php echo $blockId; ?> .navslider').hide();
+					    }
+				}
+				$('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .our_testimonials').trigger('prev.owl.carousel');
+				});
+				$('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .our_testimonials').trigger('next.owl.carousel');
+				});
+			});
+		});
+	</script>
+</div>
+		
+<?php endif; ?>
+<?php endif; ?>

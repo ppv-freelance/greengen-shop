@@ -1,0 +1,299 @@
+<?xml version="1.0" ?><config>
+	<frontend>
+		<routers>
+			<mosera>
+				<use>standard</use>
+				<args>
+					<module>Sns_Mosera</module>
+					<frontName>mosera</frontName>
+				</args>
+			</mosera>
+		</routers>
+		<layout>
+			<updates>
+				<mosera>
+					<file>sns/mosera.xml</file>
+				</mosera>
+			</updates>
+		</layout>
+		 <events>
+			<controller_action_layout_render_before>
+				 <observers>
+                    <settings>
+                        <type>singleton</type>
+                        <class>mosera/observer</class>
+                        <method>less_compile</method>
+                    </settings>
+                </observers>
+			</controller_action_layout_render_before>
+		</events>
+	</frontend>
+	<global>
+		<helpers>
+			<mosera>
+				<class>Sns_Mosera_Helper</class>
+			</mosera>
+             <configurableswatches>
+				<rewrite>
+					<mediafallback>Sns_Mosera_Helper_Mediafallback</mediafallback>
+				</rewrite>
+            </configurableswatches>
+			<cms>
+				<rewrite>
+					<wysiwyg_images>Sns_Mosera_Helper_Cms_Wysiwyg_Images</wysiwyg_images>
+				</rewrite>
+			</cms>
+		</helpers>
+		<models>
+			<mosera>
+				<class>Sns_Mosera_Model</class>
+			</mosera>
+		</models>
+		<blocks>
+			<mosera>
+				<class>Sns_Mosera_Block</class>
+			</mosera>
+			<adminhtml>
+				<rewrite>
+					<cms_wysiwyg_images_content>Sns_Mosera_Block_Adminhtml_Cms_Wysiwyg_Images_Content</cms_wysiwyg_images_content>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+		<resources>
+			<sns_mosera_setup>
+				<setup>
+					<module>Sns_Mosera</module>
+					<class>Sns_Mosera_Model_Resource_Eav_Mysql4_Setup</class>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</sns_mosera_setup>
+			<mosera_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</mosera_write>
+			<mosera_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</mosera_read>
+		</resources>
+	</global>
+	<admin>
+		<routers>
+			<mosera>
+				<use>admin</use>
+				<args>
+					<module>Sns_Mosera</module>
+					<frontName>mosera</frontName>
+				</args>
+			</mosera>
+			<adminhtml>
+				<args>
+					<modules>
+						<Sns_Mosera before="Mage_Adminhtml">Sns_Mosera_Adminhtml</Sns_Mosera>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<adminhtml>
+		<menu>
+			<snstheme>
+				<title>SNS Theme</title>
+				<sort_order>87</sort_order>
+				<children>
+					<mosera>
+						<title>SNS Mosera</title>
+						<action>adminhtml/system_config/edit/section/sns_mosera_cfg/</action>
+					</mosera>
+					<mosera_sticky>
+						<title>SNS Mosera Sticky</title>
+						<action>adminhtml/system_config/edit/section/sns_mosera_sticky/</action>
+					</mosera_sticky>
+				</children>
+			</snstheme>
+		</menu>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<sns_mosera_cfg translate="title" module="mosera">
+											<title>SNS Mosera Section</title>
+										</sns_mosera_cfg>
+										<sns_mosera_sticky translate="title" module="mosera">
+											<title>SNS Mosera Sticky Section</title>
+										</sns_mosera_sticky>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+		<layout>
+			<updates>
+				<mosera>
+					<file>sns/mosera.xml</file>
+				</mosera>
+			</updates>
+		</layout>
+		<translate>
+			<modules>
+				<Sns_Mosera>
+					<files>
+						<default>Sns_Mosera.csv</default>
+					</files>
+				</Sns_Mosera>
+			</modules>
+		</translate>
+	</adminhtml>
+    <default>
+        <sns_mosera_sticky>
+            <sticky>
+                <listStickyLeft>
+                    <![CDATA[a:2:{s:18:"_1407742133129_129";a:6:{s:4:"icon";s:30:"<i class="fa fa-facebook"></i>";s:5:"class";s:0:"";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"style";s:1:"2";s:7:"content";s:8:"Facebook";}s:18:"_1407742138445_445";a:6:{s:4:"icon";s:30:"<i class="fa fa-facebook"></i>";s:5:"class";s:0:"";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"style";s:1:"2";s:7:"content";s:8:"Facebook";}}]]></listStickyLeft>
+                <listStickyRight>
+                    <![CDATA[a:2:{s:18:"_1407742130470_470";a:6:{s:4:"icon";s:30:"<i class="fa fa-facebook"></i>";s:5:"class";s:0:"";s:4:"link";s:1:"#";s:6:"target";s:5:"_self";s:5:"style";s:1:"1";s:7:"content";s:16:"mosera_fb_likebox";}s:18:"_1407742137564_564";a:6:{s:4:"icon";s:28:"<i class="fa fa-coffee"></i>";s:5:"class";s:0:"";s:4:"link";s:1:"#";s:6:"target";s:5:"_self";s:5:"style";s:1:"1";s:7:"content";s:19:"mosera_sticky_custom";}}]]></listStickyRight>
+                <useStickyLeft><![CDATA[0]]></useStickyLeft>
+                <useStickyRight><![CDATA[0]]></useStickyRight>
+            </sticky>
+        </sns_mosera_sticky>
+        <sns_mosera_cfg>
+
+<advance>
+	<customcss><![CDATA[]]></customcss>
+	<lessCompress><![CDATA[1]]></lessCompress>
+	<lessEnabled><![CDATA[1]]></lessEnabled>
+	<quickView><![CDATA[1]]></quickView>
+	<scrollToTop><![CDATA[1]]></scrollToTop>
+	<showCpanel><![CDATA[1]]></showCpanel>
+	<showTooltip><![CDATA[1]]></showTooltip>
+	<themeColor><![CDATA[#e5a220]]></themeColor>
+	<themeColor2><![CDATA[#ec5a5a]]></themeColor2>
+</advance>
+<footer>
+	<staticblock_col1><![CDATA[mosera_footer_middle1]]></staticblock_col1>
+	<staticblock_col2><![CDATA[mosera_footer_middle2]]></staticblock_col2>
+	<staticblock_col3><![CDATA[mosera_footer_middle3]]></staticblock_col3>
+	<staticblock_col4><![CDATA[0]]></staticblock_col4>
+	<staticblock_col5><![CDATA[0]]></staticblock_col5>
+	<staticblock_col6><![CDATA[0]]></staticblock_col6>
+</footer>
+<general>
+	<bodyBgAttachment><![CDATA[fixed]]></bodyBgAttachment>
+	<bodyBgColor><![CDATA[#ffffff]]></bodyBgColor>
+	<bodyBgImage><![CDATA[pattern_0]]></bodyBgImage>
+	<bodyBgImage2><![CDATA[]]></bodyBgImage2>
+	<bodyBgPosition><![CDATA[center top]]></bodyBgPosition>
+	<bodyBgRepeat><![CDATA[repeat]]></bodyBgRepeat>
+	<dealsCountdown><![CDATA[1]]></dealsCountdown>
+	<effectImageHover><![CDATA[translatey]]></effectImageHover>
+	<fontFamily><![CDATA[arial]]></fontFamily>
+	<fontSize><![CDATA[13px]]></fontSize>
+	<googleFont><![CDATA[Lato:400,700,900]]></googleFont>
+	<googleFontTargets><![CDATA[#bd]]></googleFontTargets>
+	<layoutType><![CDATA[1]]></layoutType>
+	<stylebgtabs><![CDATA[wysiwyg/mosera/bg_tab1.jpg]]></stylebgtabs>
+	<styleFooter><![CDATA[style1]]></styleFooter>
+	<styleHeader><![CDATA[style1]]></styleHeader>
+	<useImageHover><![CDATA[1]]></useImageHover>
+	<useTagNew><![CDATA[1]]></useTagNew>
+	<useTagSale><![CDATA[1]]></useTagSale>
+</general>
+<hotcategory>
+	<bg_color><![CDATA[]]></bg_color>
+	<bg_img><![CDATA[]]></bg_img>
+	<category><![CDATA[a:5:{s:18:"_1451883002767_767";a:5:{s:5:"title";s:3:"Men";s:8:"block_id";s:20:"mosera_hotcategory_1";s:4:"link";s:0:"";s:6:"target";s:6:"_blank";s:5:"image";s:26:"wysiwyg/mosera/cat1-h3.jpg";}s:18:"_1451883004276_276";a:5:{s:5:"title";s:10:"Girl Shoes";s:8:"block_id";s:20:"mosera_hotcategory_2";s:4:"link";s:0:"";s:6:"target";s:6:"_blank";s:5:"image";s:26:"wysiwyg/mosera/cat2-h3.jpg";}s:18:"_1451883005628_628";a:5:{s:5:"title";s:8:"Shop Men";s:8:"block_id";s:20:"mosera_hotcategory_3";s:4:"link";s:0:"";s:6:"target";s:6:"_blank";s:5:"image";s:26:"wysiwyg/mosera/cat3-h3.jpg";}s:18:"_1451883006165_165";a:5:{s:5:"title";s:8:"Shop Kid";s:8:"block_id";s:20:"mosera_hotcategory_4";s:4:"link";s:0:"";s:6:"target";s:6:"_blank";s:5:"image";s:26:"wysiwyg/mosera/cat4-h3.jpg";}s:18:"_1451883009586_586";a:5:{s:5:"title";s:9:"Shop Girl";s:8:"block_id";s:20:"mosera_hotcategory_5";s:4:"link";s:0:"";s:6:"target";s:6:"_blank";s:5:"image";s:26:"wysiwyg/mosera/cat5-h3.jpg";}}]]></category>
+	<enabled><![CDATA[1]]></enabled>
+	<title><![CDATA[HOT CATEgories]]></title>
+</hotcategory>
+<install>
+	<overwrite_blocks><![CDATA[0]]></overwrite_blocks>
+	<overwrite_pages><![CDATA[0]]></overwrite_pages>
+</install>
+<listingpage>
+	<displayAddtocart><![CDATA[1]]></displayAddtocart>
+	<displayCompare><![CDATA[1]]></displayCompare>
+	<displayWishlist><![CDATA[1]]></displayWishlist>
+</listingpage>
+<menu>
+	<customItems><![CDATA[a:3:{s:17:"_1448270430023_23";a:6:{s:5:"title";s:4:"Home";s:4:"link";s:16:"{{store url=""}}";s:6:"target";s:5:"_self";s:8:"position";s:5:"first";s:8:"block_id";s:1:"0";s:6:"status";s:1:"0";}s:18:"_1452270865425_425";a:6:{s:5:"title";s:4:"Blog";s:4:"link";s:20:"{{store url='blog'}}";s:6:"target";s:5:"_self";s:8:"position";s:4:"last";s:8:"block_id";s:1:"0";s:6:"status";s:1:"0";}s:18:"_1453089298477_477";a:6:{s:5:"title";s:10:"Contact Us";s:4:"link";s:24:"{{store url='contacts'}}";s:6:"target";s:5:"_self";s:8:"position";s:4:"last";s:8:"block_id";s:1:"0";s:6:"status";s:1:"0";}}]]></customItems>
+	<customMainMenu><![CDATA[all]]></customMainMenu>
+	<keepMenu><![CDATA[0]]></keepMenu>
+	<resMenu><![CDATA[sidebar]]></resMenu>
+</menu>
+<newsletterpopup>
+	<background><![CDATA[]]></background>
+	<cookietime><![CDATA[1]]></cookietime>
+	<description><![CDATA[&lt;p&gt;Subscribe to the SNS Mosera store mailing list to receive updates on new arrivals, special offers and other discount information.&lt;/p&gt;]]></description>
+	<height><![CDATA[250]]></height>
+	<isenabled><![CDATA[0]]></isenabled>
+	<template><![CDATA[fixed]]></template>
+	<title><![CDATA[Newsletter Popup]]></title>
+	<width><![CDATA[600]]></width>
+</newsletterpopup>
+<ourpartners>
+	<bg_color><![CDATA[]]></bg_color>
+	<bg_img><![CDATA[]]></bg_img>
+	<enabled><![CDATA[1]]></enabled>
+	<partners><![CDATA[a:8:{s:18:"_1451293086644_644";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/1.png";}s:18:"_1451293089348_348";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/2.png";}s:18:"_1451293090564_564";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/3.png";}s:18:"_1451293091204_204";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/4.png";}s:18:"_1451293091740_740";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/5.png";}s:18:"_1451293092557_557";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/6.png";}s:18:"_1451293093893_893";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/7.png";}s:18:"_1451293094452_452";a:4:{s:5:"title";s:9:"SNS Group";s:4:"link";s:1:"#";s:6:"target";s:6:"_blank";s:5:"image";s:27:"wysiwyg/mosera/brands/8.png";}}]]></partners>
+	<title><![CDATA[Our Brands]]></title>
+</ourpartners>
+<productpage>
+	<customtabStaticblock><![CDATA[mosera_sticky_custom]]></customtabStaticblock>
+	<customtabStatus><![CDATA[1]]></customtabStatus>
+	<customtabTitle><![CDATA[Custom tab]]></customtabTitle>
+	<useAddThis><![CDATA[1]]></useAddThis>
+</productpage>
+<slidercategory>
+	<bg_color><![CDATA[]]></bg_color>
+	<bg_img><![CDATA[]]></bg_img>
+	<category><![CDATA[a:6:{s:18:"_1449824872656_656";a:5:{s:5:"title";s:3:"Men";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat1.jpg";}s:18:"_1449824874187_187";a:5:{s:5:"title";s:3:"Kid";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat2.jpg";}s:18:"_1449824874763_763";a:5:{s:5:"title";s:10:"Girl Shoes";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat3.jpg";}s:18:"_1449824875350_350";a:5:{s:5:"title";s:8:"Shop Men";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat4.jpg";}s:17:"_1449824876094_94";a:5:{s:5:"title";s:9:"Shop Girl";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat5.jpg";}s:18:"_1449824876729_729";a:5:{s:5:"title";s:8:"Shop Kid";s:7:"content";s:63:"Lorem Ipsum is simply dummy text of the printing and typesettin";s:4:"link";s:19:"{{store url="men"}}";s:6:"target";s:6:"_blank";s:5:"image";s:23:"wysiwyg/mosera/cat6.jpg";}}]]></category>
+	<enabled><![CDATA[1]]></enabled>
+	<title><![CDATA[]]></title>
+</slidercategory>
+<slideshow>
+	<animatein><![CDATA[fadeIn]]></animatein>
+	<animateout><![CDATA[fadeOut]]></animateout>
+	<autoplay><![CDATA[8000]]></autoplay>
+	<enabled><![CDATA[1]]></enabled>
+	<height><![CDATA[560]]></height>
+	<images><![CDATA[a:0:{}]]></images>
+	<width><![CDATA[1200]]></width>
+</slideshow>
+<social>
+	<items><![CDATA[a:6:{s:18:"_1404877041312_312";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:14:"fa fa-facebook";s:6:"target";s:5:"_self";}s:18:"_1404877043240_240";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:10:"fa-twitter";s:6:"target";s:5:"_self";}s:18:"_1404890310671_671";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:9:"fa-google";s:6:"target";s:5:"_self";}s:18:"_1404890311224_224";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:12:"fa-pinterest";s:6:"target";s:5:"_self";}s:18:"_1439524559226_226";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:13:"fa fa-youtube";s:6:"target";s:5:"_self";}s:18:"_1439524559884_884";a:4:{s:5:"title";s:9:"SNS Theme";s:4:"link";s:1:"#";s:4:"icon";s:14:"fa fa-dribbble";s:6:"target";s:5:"_self";}}]]></items>
+	<status><![CDATA[1]]></status>
+</social>
+<storelocation>
+	<map_zoom><![CDATA[14]]></map_zoom>
+	<status><![CDATA[1]]></status>
+	<statusfooter><![CDATA[1]]></statusfooter>
+	<store_address><![CDATA[5 Avenue Anatole France 75007]]></store_address>
+	<store_email><![CDATA[contact@mosera.com]]></store_email>
+	<store_info><![CDATA[Responsive Magento Theme]]></store_info>
+	<store_name><![CDATA[Mosera]]></store_name>
+	<store_phone><![CDATA[00-123-456-789]]></store_phone>
+</storelocation>
+<testimonial>
+	<items><![CDATA[a:3:{s:18:"_1442914452313_313";a:4:{s:11:"description";s:369:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+";s:4:"name";s:9:"KomodoArt";s:8:"position";s:6:"Design";s:6:"avatar";s:0:"";}s:18:"_1443463293598_598";a:4:{s:11:"description";s:369:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+";s:4:"name";s:5:"Linda";s:8:"position";s:17:"Havard University";s:6:"avatar";s:0:"";}s:16:"_1443463295005_5";a:4:{s:11:"description";s:369:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+";s:4:"name";s:5:"David";s:8:"position";s:17:"Havard University";s:6:"avatar";s:0:"";}}]]></items>
+	<status><![CDATA[1]]></status>
+	<styleblogtestimonial><![CDATA[wysiwyg/mosera/bg_testimonial.jpg]]></styleblogtestimonial>
+	<title><![CDATA[What client say ?]]></title>
+</testimonial>
+
+
+</sns_mosera_cfg>
+    </default>
+</config>

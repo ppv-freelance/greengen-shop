@@ -1,0 +1,36 @@
+<?php
+$themehelper = Mage::helper('mosera/data');
+
+$_menu = $this->getMenuHtml(false);
+
+?>
+<div class="module-catmenu">
+<div id="sns_custommenu" class="visible-md visible-lg hidden-sm hidden-xs sns_custommenu">
+	<h4 class="title"><span><?php echo $this->__('Categories'); ?></span><i class="fa fa-bars active"></i></h4>
+	<ul class="mainnav">
+		<?php echo $_menu; ?>
+		<li 
+			class="level0 btn-viewall" 
+			style=""
+			data-textopen="<?php echo $this->__('View more category'); ?>"
+			data-textclose="<?php echo $this->__('Close'); ?>"
+			>
+			<a href="javascript:void(0)"><span><?php echo $this->__('More category'); ?></span></a>
+		</li>
+	</ul>
+</div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('.sns_custommenu .title .fa').on('click', function(){
+            if($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                $('.sns_custommenu .mainnav').stop(true, true).slideUp("400");
+            } else {
+                $(this).addClass('active');
+                $('.sns_custommenu .mainnav').stop(true, true).slideDown("400");
+            }
+        });
+
+    });
+</script>

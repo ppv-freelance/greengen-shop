@@ -1,0 +1,713 @@
+
+<root>
+  <blocks>
+    <cms_block>
+      <title>mosera payment</title>
+      <identifier>mosera_payment</identifier>
+      <content><![CDATA[<div class="payment"><img alt="" src="{{media url="wysiwyg/mosera/sns_paymal.png"}}" /></div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Banner categorys</title>
+      <identifier>mosera_banner_cat</identifier>
+      <content><![CDATA[<div class="block block_cat"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/banner_right.jpg"}}" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Information   </title>
+      <identifier>mosera_footer_middle1</identifier>
+      <content><![CDATA[<h6>Information  </h6>
+<ul>
+<li><a href="#">Delivery</a></li>
+<li><a href="#">Service</a></li>
+<li><a href="#">Gift Cards</a></li>
+<li><a href="#">Mobile</a></li>
+<li><a href="{{store direct_url="contacts"}}">Contacts</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Shop With Us       </title>
+      <identifier>mosera_footer_middle2</identifier>
+      <content><![CDATA[<h6>Shop With Us       </h6>
+<ul>
+<li><a href="#">New products</a></li>
+<li><a href="#">Top sellers</a></li>
+<li><a href="#">Manufactirers</a></li>
+<li><a href="#">Suppliers</a></li>
+<li><a href="#">Specials</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Custom Block</title>
+      <identifier>mosera_custom_block</identifier>
+      <content><![CDATA[<p class="text-center"><img src="{{media url="wysiwyg/mosera/logo.png"}}" alt="" /></p>
+<p style="padding: 0px 7%;"><em>â€œ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type. â€</em></p>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Menu HTML1</title>
+      <identifier>mosera_menu1</identifier>
+      <content><![CDATA[<div class="menu_customer_style2">
+<div class="wrap_submenu">
+<ul class="level0">
+<li class="level1 nav-3-1 first"><a class=" menu-title-lv1" href="{{store direct_url="men.html"}}"> <span class="title">Men</span> </a></li>
+<li class="level1 nav-3-2"><a class=" menu-title-lv1" href="{{store direct_url="women.html"}}"> <span class="title">Women</span> </a></li>
+<li class="level1 nav-3-3 parent"><a class=" menu-title-lv1" href="{{store direct_url="accessories/product-types.html"}}"> <span class="title">Product types</span> </a>
+<div class="wrap_submenu">
+<ul class="level1">
+<li class="level2 nav-3-2-1 first"><a class=" menu-title-lv2" href="#"> <span class="title">Lifestyle</span> </a></li>
+<li class="level2 nav-3-2-2"><a class=" menu-title-lv2" href="#"> <span class="title">Jackets</span> </a></li>
+<li class="level2 nav-3-2-3 last"><a class=" menu-title-lv2" href="#"> <span class="title">Scarves</span> </a></li>
+</ul>
+</div>
+</li>
+<li class="level1 nav-3-4"><a class=" menu-title-lv1" href="#"> <span class="title">Cosmetics</span> </a></li>
+<li class="level1 nav-3-5 last"><a class=" menu-title-lv1" href="#"> <span class="title">Bras</span> </a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Menu HTML2</title>
+      <identifier>mosera_menu2</identifier>
+      <content><![CDATA[<div class="menu_customer_style1">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Men product</h3>
+                    <ul class="menu">
+                    <li><a href="#">Vestibulum vitae arcu</a></li>
+                    <li><a href="#">Duis eget risus</a></li>
+                    <li><a href="#">Donec ac ante</a></li>
+                    <li><a href="#">Nam vehicula elit aliquet</a></li>
+                    <li><a href="#">Phasellus luctus</a></li>
+                    <li><a href="#">Ut lobortis</a></li>
+                    <li><a href="#">Vestibulum a ipsum</a></li>
+                    <li><a href="#">Phasellus ultrices eros</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Women product</h3>
+                    <ul class="menu">
+                    <li><a href="#">Plus Dresses</a></li>
+                    <li><a href="#">Duis eget risus</a></li>
+                    <li><a href="#">Donec ac ante</a></li>
+                    <li><a href="#">Nam vehicula elit aliquet</a></li>
+                    <li><a href="#">Phasellus luctus</a></li>
+                    <li><a href="#">Office dress</a></li>
+                    <li><a href="#">Vestibulum a ipsum</a></li>
+                    <li><a href="#">Wedding dress</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Accessories</h3>
+                    <ul class="menu">
+                    <li><a href="#">Plus Dresses</a></li>
+                    <li><a href="#">Duis eget risus</a></li>
+                    <li><a href="#">Donec ac ante</a></li>
+                    <li><a href="#">Nam vehicula elit aliquet</a></li>
+                    <li><a href="#">Phasellus luctus</a></li>
+                    <li><a href="#">Office dress</a></li>
+                    <li><a href="#">Vestibulum a ipsum</a></li>
+                    <li><a href="#">Wedding dress</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/menu/menu10.jpg"}}" /></a>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Sticky Custom</title>
+      <identifier>mosera_sticky_custom</identifier>
+      <content><![CDATA[<p><img style="margin-top: 5px;" src="http://placehold.it/240x180" alt="" /></p>
+<p>Retra faucibus eu laoreet nunc. Tincidunt nulla a Nulla eu convallis scelerisque sociis nulla interdum et. Cursus senectus aliquet pretium at tristique hac ullamcorper adipiscing et Donec. Enim montes parturient.</p>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Sticky Facebook Like Box</title>
+      <identifier>mosera_fb_likebox</identifier>
+      <content><![CDATA[<div>{{block type="facebook/list" name="fb.likebox"}}</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Custom block in sidebar</title>
+      <identifier>mosera_custom_block_sidebar</identifier>
+      <content><![CDATA[<div class="block">
+<div class="block-title"><span>Custom Block</span></div>
+<div class="block-content">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera contact</title>
+      <identifier>mosera_contact</identifier>
+      <content><![CDATA[<div class="contact_us">
+<h6>Contact us</h6>
+<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed.</p>
+<ul class="fa-ul">
+<li><i class="fa-li fa fw fa-home">&nbsp;</i> 8888 South Avenue Street, New York City.</li>
+<li><i class="fa-li fa fw fa-phone">&nbsp;</i>
+<p>00-123-456-789</p>
+</li>
+<li><i class="fa-li fa fw fa-fax">&nbsp;</i>
+<p>00-123-456-789</p>
+</li>
+<li><i class="fa-li fa fw fa-envelope">&nbsp;</i>
+<p><a href="mailto:contact@mosera.com"> contact@mosera.com </a></p>
+</li>
+</ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera abbout footer</title>
+      <identifier>mosera_abbout_footer</identifier>
+      <content><![CDATA[<div class="banner_home2" >
+    <div class="module">
+        <div class="title">
+            <p>About <span>Mosera</span></p>
+        </div>
+        <div class="content">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an text ever since the 1500s. Lorem Ipsum has been the industry's.
+        </div>
+        <div class="module_ct">
+            {{block type="core/template" template="sns/blocks/socials.phtml"}}
+        </div>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner content</title>
+      <identifier>mosera_banner_content</identifier>
+      <content><![CDATA[<div class="mosera_banner2" style="background: url=;">
+<div class="title">
+<p class="title-top">NEW COLLECTION</p>
+<p class="border"><span>border</span></p>
+<p class="title-content">Latest trends in 2015</p>
+<p class="submit"><a href="#">Shop now</a></p>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner bottom</title>
+      <identifier>mosera_banner_bottom</identifier>
+      <content><![CDATA[<div class="row mrb40 mosera_banner1">
+<div class="col-md-6 col-sm-6 col-xs-6 col-phone-12"><a class="banner6" href="#"><img alt="" src="{{media url="wysiwyg/mosera/banner31.jpg"}}" /></a></div>
+<div class="col-md-6 col-sm-6 col-xs-6 col-phone-12"><a class="banner6" href="#"><img alt="" src="{{media url="wysiwyg/mosera/banner32.jpg"}}" /></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera facebook</title>
+      <identifier>mosera_facebook</identifier>
+      <content><![CDATA[<p>{{block type="facebook/list" isenabled="1" title="SNS Facebook" fanpageName="snstheme" numberDisplay="20"}}</p>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner1</title>
+      <identifier>mosera_banner1</identifier>
+      <content><![CDATA[<div class="container">
+<div class="block">
+<div class="block-title">
+<p>why choose <span class="color">Mosera<span> ?</span></span></p>
+</div>
+</div>
+<div class="row mrb40">
+<div class="col-md-3 col-sm-6 col-phone-12">
+<div class="policy_custom">
+<div class="policy-icon"><span>01</span></div>
+<p class="policy-titile">100% responsive layout</p>
+<p class="policy-ct">Lorem Ipsum is simply dummy text of eodem modo typi, quinunc nobis dentur parumclari fiant sollemne</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-phone-12">
+<div class="policy_custom">
+<div class="policy-icon"><span>02</span></div>
+<p class="policy-titile">Easy to custom</p>
+<p class="policy-ct">Lorem Ipsum is simply dummy text of eodem modo typi, quinunc nobis dentur parumclari fiant sollemne</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-phone-12">
+<div class="policy_custom">
+<div class="policy-icon"><span>03</span></div>
+<p class="policy-titile">Support online</p>
+<p class="policy-ct">Lorem Ipsum is simply dummy text of eodem modo typi, quinunc nobis dentur parumclari fiant sollemne</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-phone-12">
+<div class="policy_custom">
+<div class="policy-icon"><span>04</span></div>
+<p class="policy-titile">Payment security</p>
+<p class="policy-ct">Lorem Ipsum is simply dummy text of eodem modo typi, quinunc nobis dentur parumclari fiant sollemne</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner2</title>
+      <identifier>mosera_banner2</identifier>
+      <content><![CDATA[<div class="container">
+    <div class="row mrb40">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+            <div class="module">
+                <div class="title">Mosera</div>
+                <div class="title-ct">Premium Responsive magentotheme</div>
+                <div class="module-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                </div>
+                <div class="red-more">
+                    <a href="#">View more</a>
+                    <a href="#">Buy it now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera footer static</title>
+      <identifier>mosera_footer_static</identifier>
+      <content><![CDATA[<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12 col-phone-12">
+<div class="custom">
+<div class="icon_pin_alt policy-icon">&nbsp;</div>
+<p class="policy-ct">Add: 8888 South Avenue Street, New York</p>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col-phone-12">
+<div class="custom">
+<div class="icon_phone policy-icon">&nbsp;</div>
+<p class="policy-ct">Phone: (12) 3 456 7896 / (12) 3 456 7897</p>
+</div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col-phone-12">
+<div class="custom">
+<div class="icon_mail_alt policy-icon">&nbsp;</div>
+<p class="policy-ct">Add: 8888 South Avenue Street, New York</p>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Our Account</title>
+      <identifier>mosera_footer_middle3</identifier>
+      <content><![CDATA[<h6>Our Account</h6>
+<ul>
+<li><a href="{{store direct_url="customer/account"}}">My Account</a></li>
+<li><a href="{{store direct_url="sales/guest/form"}}">Orders and Returns</a></li>
+<li><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+<li><a href="{{store direct_url="catalogsearch/term/popular"}}">Search Terms</a></li>
+<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner3</title>
+      <identifier>mosera_banner3</identifier>
+      <content><![CDATA[<div class="row mrb50 mosera_bannerv2">
+    <div class="col-md-4 col-sm-4 col-xs-12 col-phone-12">
+        <div class="row">
+            <div class="col-sm-12 col-xs-6 col-phone-12 mrb30">
+                <a class="banner6" href="#">
+                    <img alt="" src="{{media url="wysiwyg/mosera/banner1_v2.jpg"}}" />
+                </a>
+            </div>
+            <div class="col-sm-12 col-xs-6 col-phone-12">
+                <a class="banner6" href="#">
+                    <img alt="" src="{{media url="wysiwyg/mosera/banner2_v2.jpg"}}" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-6 col-phone-12">
+        <a class="banner6" href="#">
+            <img alt="" src="{{media url="wysiwyg/mosera/banner5_v2.jpg"}}" />
+        </a>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-6 col-phone-12">
+        <div class="row">
+            <div class="col-sm-12 col-phone-12 mrb30">
+                <a class="banner6" href="#">
+                    <img alt="" src="{{media url="wysiwyg/mosera/banner3_v2.jpg"}}" />
+                </a>
+            </div>
+            <div class="col-sm-12 col-phone-12">
+                <a class="banner6" href="#">
+                    <img alt="" src="{{media url="wysiwyg/mosera/banner4_v2.jpg"}}" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner4</title>
+      <identifier>mosera_banner4</identifier>
+      <content><![CDATA[<div class="container">
+<div class="row mrb50">
+<div class="col-md-3 col-sm-3 col-xs-6 col-phone-12">
+<div class="policy_custom">
+<div class="fs1 policy-icon" data-icon="">&nbsp;</div>
+<p class="policy-titile">Free shipping</p>
+<p class="policy-ct">Free shipping on order over 10km</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-6 col-phone-12">
+<div class="policy_custom">
+<div class="fs1 policy-icon" data-icon="">&nbsp;</div>
+<p class="policy-titile">Discount on order gift</p>
+<p class="policy-ct">Lorem ipsum dolor sit amet</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-6 col-phone-12">
+<div class="policy_custom">
+<div class="fs1 policy-icon" data-icon="">&nbsp;</div>
+<p class="policy-titile">Free return for 10 days</p>
+<p class="policy-ct">ipsum dolor sit amet, consectetur</p>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-xs-6 col-phone-12">
+<div class="policy_custom">
+<div class="fs1 policy-icon" data-icon="~">&nbsp;</div>
+<p class="policy-titile">Security payment</p>
+<p class="policy-ct">Lorem ipsum dolor sit amet</p>
+</div>
+</div>
+</div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner top</title>
+      <identifier>mosera_banner_top</identifier>
+      <content><![CDATA[<div class="mrb55"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/banner1.jpg"}}" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera header contac</title>
+      <identifier>mosera_header_contact</identifier>
+      <content><![CDATA[<p>Welcome to Guest ! <i class="fa fa-phone-square"></i> (+23) 123 456 789</p>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera top logo</title>
+      <identifier>mosera_top_logo</identifier>
+      <content><![CDATA[<p>Online Support 24/7</p>
+<p class="content">(+84) 999 456 789</p>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner top h2</title>
+      <identifier>mosera_banner_toph2</identifier>
+      <content><![CDATA[<div class="row banner_toph2">
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/home2_banner1.jpg"}}" /></a></div>
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/home2_banner2.jpg"}}" /></a></div>
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/home2_banner3.jpg"}}" /></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner center h2</title>
+      <identifier>mosera_banner_centerh2</identifier>
+      <content><![CDATA[<div class="mrb55"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/home2_banner4.jpg"}}" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner toph3</title>
+      <identifier>mosera_banner_toph3</identifier>
+      <content><![CDATA[<div class="row banner_top_h3">
+<div class="col-sm-9 col-xs-6 col-phone-12 left">
+<div class="row">
+<div class="col-sm-12 col-xs-12 col-phone-12 top"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/h3_banner1.jpg"}}" /></a></div>
+<div class="col-sm-12 col-xs-12 col-phone-12 bottom">
+<div class="row">
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/h3_banner2.jpg"}}" /></a></div>
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/h3_banner3.jpg"}}" /></a></div>
+<div class="col-sm-4 col-xs-12 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/h3_banner4.jpg"}}" /></a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 col-xs-6 col-phone-12"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/h3_banner5.jpg"}}" /></a></div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner centerh3</title>
+      <identifier>mosera_banner_centerh3</identifier>
+      <content><![CDATA[<div class="banner_centerh3"><a class="banner5" href="#"><img alt="" src="{{media url="wysiwyg/mosera/home2_banner4.jpg"}}" /></a></div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Hot category 1</title>
+      <identifier>mosera_hotcategory_1</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Men shoes </a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Clothing</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Jewelry</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Hot category 2</title>
+      <identifier>mosera_hotcategory_2</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Clothing</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Men shoes </a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Jewelry</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Hot category 3</title>
+      <identifier>mosera_hotcategory_3</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Men shoes </a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Clothing</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Jewelry</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Hot category 4</title>
+      <identifier>mosera_hotcategory_4</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Men shoes </a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Clothing</a></li>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Jewelry</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>Hot category 5</title>
+      <identifier>mosera_hotcategory_5</identifier>
+      <content><![CDATA[<ul>
+<li><a href="#">Accessories</a></li>
+<li><a href="#">Watches</a></li>
+<li><a href="#">Jewelry</a></li>
+<li><a href="#">Men shoes </a></li>
+<li><a href="#">Shoes</a></li>
+<li><a href="#">Clothing</a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera logo footer</title>
+      <identifier>mosera_logo_footer</identifier>
+      <content><![CDATA[<div class="top">
+    <div class="logofooter"><a href="#"><img alt="" src="{{media url='wysiwyg/mosera/logov2.png'}}" /></a></div>
+    <div class="content">
+        <p>Lorem Ipsum is simyp. Lorem Ipsum has been the industry's standard dummy text ever since.Lorem Ipsum is simyp.</p>
+        <p>Lorem Ipsum is simyp. Lorem Ipsum has been the industry's standard dummy text ever since.Lorem Ipsum is simyp.</p>
+    </div>
+</div>
+<div class="bottom">
+    <ul class="fa-ul">
+        <li><i class="fa-li fa fa-location-arrow">&nbsp;</i><span>Adress: 5 Avenue Anatole France 75007</span></li>
+        <li><i class="fa-li fa fw fa-phone">&nbsp;</i><span>Phone: 00-123-456-789</span></li>
+        <li><i class="fa-li fa fw fa-envelope">&nbsp;</i><a href="mailto:contact@camen.com">Email: contact@mosera.com</a></li>
+    </ul>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera menu footer</title>
+      <identifier>mosera_menu_footer</identifier>
+      <content><![CDATA[<ul>
+    <li><a href="#"><span>Privacy & Cookies</span></a></li>
+    <li><a href="#"><span>Terms & Conditions</span></a></li>
+    <li><a href="#"><span>Accessibilit</span></a></li>
+    <li><a href="#"><span>Store Directory</span></a></li>
+    <li><a href="#"><span>About Us</span></a></li>
+</ul>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera banner top h4</title>
+      <identifier>mosera_banner_top_h4</identifier>
+      <content><![CDATA[<div class="row banner_top_h4">
+    <div class="col-sm-12 col-xs-12 col-phone-12">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 col-phone-12">
+                <div class="module-ct">
+                        <div class="title">
+                            <span>20% off</span> maternity
+                        </div>
+                        <div class="content">Selected lines online only</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12 col-phone-12">
+                <div class="module-ct">
+                        <div class="title">
+                            <span>30% off</span> winter warmers
+                        </div>
+                        <div class="content">selected lines. ends 01/22/2015 at midnight</div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12 col-phone-12">
+                <div class="module-ct">
+                        <div class="title">
+                            <span>99p uk</span> stand delivery
+                        </div>
+                        <div class="content">ends 02/11/2015 at midnight</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-xs-12 col-phone-12">
+        <div class="bottom-title">
+                             HURRY! <span>20% OFF</span> DRESSES & JUMPSUITS ENDS IN 20h 29m 17s
+                        </div>
+    </div>
+</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+    <cms_block>
+      <title>mosera header logov2</title>
+      <identifier>mosera_header_logov2</identifier>
+      <content><![CDATA[<span><img class="logov2" alt="" src="{{media url="wysiwyg/mosera/logov2.png"}}" /></span>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+    </cms_block>
+  </blocks>
+</root>

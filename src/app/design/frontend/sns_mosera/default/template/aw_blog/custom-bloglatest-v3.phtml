@@ -1,0 +1,102 @@
+<?php
+$posts = $this->getPosts();
+$blockId ='sns_latestblog_'.rand().time();
+
+if(!count($posts)) :
+?>
+	<p class="note-msg"><?php echo $this->__('There are no posts matching the selection.') ?></p>
+<?php else: ?>
+<div class="blog-footer" id="<?php echo $blockId; ?>">
+	<div class="block-title">
+		<strong><?php echo $this->__('Rescent post');?></strong>
+		
+	</div>
+	<div class="block-content">
+		<div class="navslider">
+			<a class="prev" href="#"><i class="fa fa-long-arrow-left"></i></a>
+			<a class="next" href="#"><i class="fa fa-long-arrow-right"></i></a>
+		</div>
+	    <div class="list-blog">
+	    <?php $j=0; foreach ($posts as $post): ?>
+	        <?php
+			
+		        $j++;
+		        if($j>7) break;
+			?>
+			<?php if($i%3 == 0) {
+                	echo '<div class="row-item">';
+            	}
+            ?>
+	        <div class="item-post<?php echo ($j==3)?' last':'';?> clearfix">
+	            <?php
+					
+		            $str = $post->getPostContent();
+		            $str = preg_replace ( "/\<img[^\>]*>/", '', $post->getPostContent());
+	            ?>
+	            <div class="blog-img">
+		            <a class="post-img banner5" title="<?php echo $post->getTitle(); ?>" href="<?php echo $post->getAddress(); ?>" >
+		                <?php $imgUrl = Mage::helper('mosera/data')->getImgUrl($post->getPostContent()); ?>
+		                <img <?php echo $imgUrl; ?> alt="<?php echo $post->getTitle(); ?>" />
+		            </a>
+		        </div>
+	            <div class="blog-content">
+		            <div class="post-title">
+		                <a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a>
+		            </div>
+		            <div class="postContent clearfix"><?php echo $post->getPostContent(); ?></div>
+		            <div class="date">
+		                <?php $_ct= new Zend_Date($post->getCreatedTime()); ?>
+		                
+		                <span class="d-day"><?php echo $_ct->toString('d');  ?> </span>
+		                <span class="d-month"><?php echo $_ct->toString('MMM'); ?> </span>,
+		                <span class="d-year">  <?php echo $_ct->toString('Y'); ?> </span>
+		            </div>
+		        </div>
+	            
+	        </div>
+	        <?php
+	            $i++;
+	            if($i%3 == 0 || $i == count($posts)) {
+	                echo '</div>'; // endrow
+	            }
+            ?>
+	    <?php endforeach; ?>
+	    </div>
+	</div>
+	<script>
+		jQuery(document).ready(function($) {
+			$(window).load(function(){
+				$('#<?php echo $blockId; ?> .list-blog').owlCarousel({
+		            responsive : {
+								    0 : { items: 1}									    
+								},
+					loop:false,
+					nav: false,
+					dots: false,
+					slideSpeed : 800,
+					autoPlay: true,
+					autoHeight: true,
+					autoplayHoverPause: true,
+					addClassActive: true,
+					onInitialized: callback
+				});
+				function callback(event) {
+		   			if(this._items.length > this.options.items){
+					        $('#<?php echo $blockId; ?> .navslider').show();
+					    }else{
+					        $('#<?php echo $blockId; ?> .navslider').hide();
+					    }
+				}
+				$('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .list-blog').trigger('prev.owl.carousel');
+				});
+				$('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .list-blog').trigger('next.owl.carousel');
+				});
+			});
+		});
+	</script>
+</div>
+<?php endif; ?>

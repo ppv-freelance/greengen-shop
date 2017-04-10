@@ -1,0 +1,327 @@
+
+<root>
+  <pages>
+    <cms_block>
+      <title>Mosera - Responsive Magento Theme</title>
+      <identifier>mosera_home_page</identifier>
+      <content><![CDATA[<div style="display: none;">sns</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+      <root_template>one_column</root_template>
+      <layout_update_xml><![CDATA[<reference name="header">
+            <block type="mosera/wrapper" name="section.moseraheader" as="cat_slideshow">
+                <action method="setParams"><params>class="mrb30"</params></action>
+                <block type="mosera/wrapper" name="section.moseraheader.no1">
+                    <action method="setId"><id>sns_slideshow</id></action>
+                    <block type="core/template" template="sns/blocks/slideshow.phtml" />
+                </block>
+            </block>
+        </reference>
+        <reference name="before_content">
+            <block type="mosera/wrapper" name="sns_after_slidercategory_content">
+                <action method="setParams"><params>class="sns_slidercategory"</params></action>
+                <block type="mosera/wrapper" name="section.slidercategory">
+                    <action method="setId"><id>sns_slidercategory</id></action>
+                    <block type="mosera/wrapper" name="wrap.slidercategory">
+                        <block type="core/template" template="sns/blocks/category.phtml" />
+                    </block>
+                </block>
+            </block>
+        </reference>
+        
+
+        <reference name="content">
+            <block type="cms/block" name="mosera_banner_top">
+                <action method="setBlockId"><block_id>mosera_banner_top</block_id></action>
+            </block>
+            <block type="products/slider" name="section.botsl2.slider" template="sns/products/slider.phtml">
+                <action method="setConfig">
+                    <name>
+                        <title>NEW products</title>
+                        <product_limitation>36</product_limitation>
+                        <product_order_by>created_at</product_order_by>
+                    </name>
+                </action>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_policy_content">
+                <action method="setParams"><params>class="policy_content"</params></action>
+                <block type="cms/block" name="mosera_home1_banner1">
+                    <action method="setBlockId"><block_id>mosera_banner1</block_id></action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_product">
+                <action method="setParams"><params>class="container"</params></action>
+                <block type="products/slider" name="section.sns_after_product" template="sns/products/slider.phtml">
+                    <action method="setConfig">
+                        <name>
+                            <title>Featured products</title>
+                            <product_limitation>36</product_limitation>
+                            <product_order_by>is_featured</product_order_by>
+                        </name>
+                    </action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_static">
+                <action method="setParams"><params>class="static_content"</params></action>
+                <block type="cms/block" name="mosera_home1_banner1">
+                    <action method="setBlockId"><block_id>mosera_banner2</block_id></action>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="after_content">
+            <block type="mosera/wrapper" name="sns_after_bottom_content">
+                <action method="setParams"><params>class="container"</params></action>
+                <block type="mosera/wrapper" name="testimonial_home">
+                    <block type="core/template" template="sns/blocks/testimonial.phtml" />
+                </block>
+                <block type="mosera/wrapper" name="section.after.no1">
+                    <action method="setRow"><row>1</row></action>
+                    <block type="mosera/wrapper" name="section.no1.no2">
+                        <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                        <block type="products/slider" name="section.sns_after_product" template="sns/products/sliderv2.phtml">
+                            <action method="setConfig">
+                                <name>
+                                    <title>May you like !</title>
+                                    <product_limitation>6</product_limitation>
+                                    <product_order_by>created_at</product_order_by>
+                                </name>
+                            </action>
+                        </block>
+                    </block>
+                    <block type="mosera/wrapper" name="section.after.no2">
+                        <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                        <block type="products/slider" name="section.sns_after_product_mostview" template="sns/products/sliderv2.phtml">
+                            <action method="setConfig">
+                                <name>
+                                    <title>Most viewed</title>
+                                    <product_limitation>6</product_limitation>
+                                    <product_order_by>most_viewed</product_order_by>
+                                </name>
+                            </action>
+                        </block>
+                    </block>
+                </block>
+                <block type="mosera/wrapper" name="panert_home">
+                    <block type="core/template" template="sns/blocks/partners.phtml" />
+                </block>
+            </block>
+        </reference>]]></layout_update_xml>
+    </cms_block>
+    <cms_block>
+      <title>Mosera Home Page2 - Responsive Magento Theme</title>
+      <identifier>mosera_home_page2</identifier>
+      <content><![CDATA[<div style="display: none;">sns</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+      <root_template>one_column</root_template>
+      <layout_update_xml><![CDATA[<reference name="header">
+    <block type="mosera/wrapper" name="section.mosera.header" as="cat_slideshow">
+        <action method="setParams"><params>class="mrb60"</params></action>
+        <block type="mosera/wrapper" name="section.moseraheader.no1">
+            <action method="setId"><id>sns_slideshow</id></action>
+            <block type="core/template" template="sns/blocks/slideshow.phtml" />
+        </block>
+    </block>
+</reference>
+<reference name="content">
+    <block type="cms/block" name="mosera_banner_top2">
+        <action method="setBlockId"><block_id>mosera_banner_toph2</block_id></action>
+    </block>
+    <block type="producttabs/grid" name="producttabs.grid" template="sns/producttabs/default.phtml">
+        <action method="setConfig">
+            <name>
+                <title>NEW products</title>
+                <product_order_by>created_at</product_order_by>
+                <number_per_display>8</number_per_display>
+            </name>
+        </action>
+    </block>
+    <block type="cms/block" name="mosera_banner_center2">
+        <action method="setBlockId"><block_id>mosera_banner_centerh2</block_id></action>
+    </block>
+    <block type="products/slider" name="products.slider" template="sns/products/slider.phtml">
+        <action method="setConfig">
+            <name>
+                <title>Featured products</title>
+                <product_limitation>36</product_limitation>
+                <product_order_by>is_featured</product_order_by>
+            </name>
+        </action>
+    </block>
+</reference>
+<reference name="after_content">
+    <block type="mosera/wrapper" name="sns_after_bottom_content">
+        <action method="setParams"><params>class="container"</params></action>
+        <block type="blog/blog" template="aw_blog/custom-bloglatest.phtml" />
+        <block type="mosera/wrapper" name="testimonial_home">
+            <block type="core/template" template="sns/blocks/testimonial.phtml" />
+        </block>
+        <block type="mosera/wrapper" name="panert_home">
+            <block type="core/template" template="sns/blocks/partners.phtml" />
+        </block>
+    </block>
+</reference>]]></layout_update_xml>
+    </cms_block>
+    <cms_block>
+      <title>Mosera Home Page3 - Responsive Magento Theme</title>
+      <identifier>mosera_home_page3</identifier>
+      <content><![CDATA[<div style="display: none;">sns</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+      <root_template>one_column</root_template>
+      <layout_update_xml><![CDATA[<reference name="header">
+    <block type="mosera/wrapper" name="section.mosera.header" as="cat_slideshow">
+        <action method="setParams"><params>class="mrb60"</params></action>
+        <block type="mosera/wrapper" name="section.moseraheader.no1">
+            <action method="setId"><id>sns_slideshow</id></action>
+            <block type="core/template" template="sns/blocks/slideshow.phtml" />
+        </block>
+    </block>
+</reference>
+<reference name="content">
+    <block type="cms/block" name="mosera_banner_top3">
+        <action method="setBlockId"><block_id>mosera_banner_toph3</block_id></action>
+    </block>
+    <block type="producttabs/slider" name="producttabs.grid" template="sns/producttabs/default-slider.phtml">
+        <action method="setConfig">
+            <name>
+                <title>NEW products</title>
+                <product_order_by>created_at</product_order_by>
+            </name>
+        </action>
+    </block>
+    <block type="mosera/wrapper" name="wrap.hotcategory">
+        <block type="core/template" template="sns/blocks/hotcategory.phtml" />
+    </block>
+    <block type="products/slider" name="products.slider" template="sns/products/slider.phtml">
+        <action method="setConfig">
+            <name>
+                <title>Best sale</title>
+                <product_limitation>36</product_limitation>
+                <product_order_by>created_at</product_order_by>
+            </name>
+        </action>
+    </block>
+    <block type="cms/block" name="mosera_banner_center2">
+        <action method="setBlockId"><block_id>mosera_banner_centerh3</block_id></action>
+    </block>
+    <block type="products/slider" name="products.slider2" template="sns/products/slider.phtml">
+        <action method="setConfig">
+            <name>
+                <title>Most viewed</title>
+                <product_limitation>36</product_limitation>
+                <product_order_by>most_reviewed</product_order_by>
+            </name>
+        </action>
+    </block>
+</reference>
+<reference name="after_content">
+    <block type="mosera/wrapper" name="sns_after_bottom_content">
+        <action method="setParams"><params>class="container"</params></action>
+        <block type="blog/blog" template="aw_blog/custom-bloglatest.phtml" />
+        <block type="mosera/wrapper" name="testimonial_home">
+            <block type="core/template" template="sns/blocks/testimonial.phtml" />
+        </block>
+        <block type="mosera/wrapper" name="panert_home">
+            <block type="core/template" template="sns/blocks/partners.phtml" />
+        </block>
+    </block>
+</reference>]]></layout_update_xml>
+    </cms_block>
+    <cms_block>
+      <title>Mosera Home Page 4 - Responsive Magento Theme </title>
+      <identifier>mosera_home_page4</identifier>
+      <content><![CDATA[<div style="display: none;">sns</div>]]></content>
+      <is_active>1</is_active>
+      <stores>
+        <item>0</item>
+      </stores>
+      <root_template>one_column</root_template>
+      <layout_update_xml><![CDATA[<reference name="header">
+    <block type="mosera/wrapper" name="section.mosera.header" as="cat_slideshow">
+        <action method="setParams"><params>class="mrb60"</params></action>
+        <block type="mosera/wrapper" name="section.moseraheader.no1">
+            <action method="setId"><id>sns_slideshow</id></action>
+            <block type="core/template" template="sns/blocks/slideshow.phtml" />
+        </block>
+    </block>
+</reference>=
+<reference name="content">
+    <block type="cms/block" name="mosera_banner_top">
+        <action method="setBlockId"><block_id>mosera_banner_top_h4</block_id></action>
+    </block>
+    <block type="producttabs/grid" name="producttabs.grid" template="sns/producttabs/default.phtml">
+        <action method="setConfig">
+            <name>
+                <title>NEW products</title>
+                <product_order_by>created_at</product_order_by>
+                <number_per_display>8</number_per_display>
+            </name>
+        </action>
+    </block>
+</reference>
+<reference name="after_content">
+    <block type="mosera/wrapper" name="sns_after_static">
+        <action method="setParams"><params>class="static_content v2"</params></action>
+        <block type="cms/block" name="mosera_home1_banner1">
+            <action method="setBlockId"><block_id>mosera_banner2</block_id></action>
+        </block>
+    </block>
+</reference>
+<reference name="after_content">
+    <block type="mosera/wrapper" name="sns_after_bottom_content">
+        <action method="setParams"><params>class="container"</params></action>
+        <block type="mosera/wrapper" name="section.after.no1">
+            <action method="setRow"><row>1</row></action>
+            <block type="mosera/wrapper" name="section.no1.no2">
+                <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                <block type="products/slider" name="section.sns_after_product" template="sns/products/sliderv2.phtml">
+                    <action method="setConfig">
+                        <name>
+                            <title>May you like !</title>
+                            <product_limitation>6</product_limitation>
+                            <product_order_by>created_at</product_order_by>
+                        </name>
+                    </action>
+                </block>
+            </block>
+            <block type="mosera/wrapper" name="section.after.no2">
+                <action method="setParams"><params>class="col-lg-6 col-md-6 col-sm-6 col-xs-12"</params></action>
+                <block type="products/slider" name="section.sns_after_product_mostview" template="sns/products/sliderv2.phtml">
+                    <action method="setConfig">
+                        <name>
+                            <title>Most viewed</title>
+                            <product_limitation>6</product_limitation>
+                            <product_order_by>most_viewed</product_order_by>
+                        </name>
+                    </action>
+                </block>
+            </block>
+        </block>
+        <block type="mosera/wrapper" name="wrap.hotcategory">
+            <block type="core/template" template="sns/blocks/hotcategory.phtml" />
+        </block>
+        <block type="mosera/wrapper" name="panert_home">
+            <block type="core/template" template="sns/blocks/partners.phtml" />
+        </block>
+    </block>
+</reference>]]></layout_update_xml>
+    </cms_block>
+  </pages>
+</root>

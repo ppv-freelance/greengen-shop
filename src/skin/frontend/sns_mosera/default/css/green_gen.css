@@ -1,0 +1,322 @@
+/* Footer ================================================================================ */
+
+.footer-banner {
+    margin-top:20px;
+}
+#footer {
+    font-size: 13px;
+}
+.footer-wrap {
+    overflow: hidden;
+    padding: 27px 0 20px;
+    position: relative;
+    background: url(../images/map-overlay.png) no-repeat center center;
+}
+#footer .block {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-right: 2%;
+    padding-bottom: 30px;
+    vertical-align: top;
+    width: 23%;
+    color:#fff;
+}
+#footer h4 {
+    border-bottom: 1px solid #4C4C4C;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+#footer h4, #footer h4 a {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    text-transform:uppercase;
+}
+#footer ul {
+    list-style-type: none;
+}
+#footer li {
+    color: #1C1C1C;
+    font-size: 13px;
+    list-style: none outside none;
+    padding: 3px 0;
+}
+#footer a {
+    color: #FFFFFF;
+    font-size: 13px;
+    transition: all 0.6s ease 0s;
+}
+#footer a:hover {
+    text-decoration:underline;
+}
+.social span {
+    display: none;
+}
+.social em {
+    font-size: 19px !important;
+    margin-left: 15px;
+}
+.social em:hover {
+}
+.block li a {
+    display: block;
+    color: #2b2b2b;
+    font-size: 13px;
+    line-height: 16px;
+}
+#footer .block.last {
+    margin-right: 0;
+}
+#footer-absolute {
+    border-bottom: 1px solid #4C4C4C;
+    margin-bottom: 40px;
+    padding: 12px 0;
+    position: relative;
+    text-align: center;
+}
+#scroll-top-img {
+    border: 7px solid #494949;
+    border-radius: 100px;
+    bottom: -37px;
+    display: block;
+    height: 38px;
+    left: 49%;
+    padding: 20px 0 0;
+    position: absolute;
+    width: 61px;
+}
+#scroll-top-img:hover {
+    opacity:0.8;
+    border-radius: 0px;
+}
+.copy {
+    bottom: -53px;
+    color: #FFFFFF;
+    font-size: 11px;
+    left: 0;
+    position: absolute;
+    text-align: left;
+}
+.social {
+    bottom: -52px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+.social a {
+}
+.category-list {
+    padding:30px 0 0 0;
+}
+.category-list li {
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.category-list li.last {
+    margin-right:0 !important;
+}
+.category-list a {
+    float: left;
+    position:relative;
+}
+.category-lis img {
+    float: left;
+    margin-right: 30px;
+}
+.category-lis .last {
+    margin-right:0;
+}
+.category-list .overlay {
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    display: block;
+    height: 98%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    z-index: 10;
+}
+.category-list li:hover .overlay {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}
+.category-list li:hover h3 a {
+    background: none repeat scroll 0 0 #2A3610;
+}
+.category-list h3 a {
+    background: none repeat scroll 0 0 #98c634;
+    opacity: 0.9;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: bebas_neueregular;
+    font-size: 23px;
+    left: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    z-index: 100;
+}
+.footer-container {
+    border-top:15px solid #b6d1e2;
+}
+.footer {
+    width:930px;
+    margin:0 auto;
+    padding:10px 10px 50px;
+}
+.footer .store-switcher {
+    display:inline;
+    margin:0 5px 0 0;
+    color:#fff;
+}
+.footer .store-switcher label {
+    font-weight:bold;
+    vertical-align:middle;
+}
+.footer .store-switcher select {
+    padding:0;
+    vertical-align:middle;
+}
+.footer a {
+    color:#fff;
+    text-decoration:none;
+}
+.footer a:hover {
+    text-decoration:underline;
+}
+.footer .bugs {
+    margin:13px 0 0;
+    color:#ecf3f6;
+}
+.footer .bugs a {
+    color:#ecf3f6;
+    text-decoration:underline;
+}
+.footer .bugs a:hover {
+    text-decoration:none;
+}
+.footer address {
+    margin:0 0 20px;
+    color:#ecf3f6;
+}
+.footer address a {
+    color:#ecf3f6;
+    text-decoration:underline;
+}
+.footer address a:hover {
+    text-decoration:none;
+}
+.footer ul {
+    display:inline;
+}
+.footer ul.links {
+    display:block;
+}
+.footer li {
+    display:inline;
+    background:url(../images/bkg_pipe2.gif) 100% 60% no-repeat;
+    padding:0 7px 0 4px;
+}
+.footer li.last {
+    background:none !important;
+    padding-right:0 !important;
+}
+.footer-container .bottom-container {
+    margin:0 0 5px;
+}
+/* ======================================================================================= */
+
+.policy_content .policy_custom {
+    padding: 0;
+}
+
+.policy_content {
+    margin-bottom: 0;
+}
+
+.static_content:before{
+    background:transparent;
+}
+
+.static_content {
+    height:200px;
+}
+
+
+#sns_menu .sns_mainmenu {
+    text-align:left;
+}
+
+.header-menu {
+    background: #424242;
+    height: 75px;
+}
+
+#sns_custommenu ul.mainnav li.level0 > a {
+    line-height:78px;
+
+}
+
+#sns_header.header_style1 .top_logo {
+    text-align:left;
+}
+
+#sns_custommenu ul.mainnav li.level0 > a {
+    padding: 0 25px 0 8px;
+}
+
+#sns_header {
+    border-top: 0 solid;
+}
+
+.sns-sub-header .top-search .form-search input {
+    height: 35px;
+    border: 1px solid #eaeaea;
+    padding-right: 35px;
+    line-height: 14px;
+    width: 95%;
+    padding: 0;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/*html .first-bg,aside .block h4,.pagination ul .active a,button.button span,.button.btn-checkout,.iview-prevNav,a.iview-nextNav,.dl-menuwrapper button,.dl-menuwrapper .dl-menu,.i-tab li.active{*/
+    /*background-color:#90c322;*/
+
+/*}*/
+/*html .first-bg-hover:hover,.pagination ul a:hover{*/
+    /*background-color:#90c322;*/
+/*}*/
+
+html .second-bg,.sf-menu ul{
+    background:#555555;
+
+}
+html .second-color{
+    color:#555555;
+
+}
+html .second-brd{
+    border-color:#555555;
+
+}
+
+#content .gg-header {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: #7BBC53;
+    margin: 10px 0;
+}

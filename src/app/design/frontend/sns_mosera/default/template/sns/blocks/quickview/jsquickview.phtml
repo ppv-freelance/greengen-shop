@@ -1,0 +1,74 @@
+<?php if(Mage::helper('mosera/data')->getField('advance_quickView')) : ?>
+	<script type="text/javascript">
+	function addQvClass () {
+		var baseUrl = "<?php echo $this->getUrl('mosera/quickview') ?>";
+		var qvClass = '.wrap-quickview';
+		
+		jQuery(qvClass).each(function() {
+			var productId = jQuery(this).attr('data-id');
+			if(productId) {
+				productId = productId.split("qv_item_");
+				var url = baseUrl+'index'+'?id='+productId[1];
+				jQuery(this).find('a').attr({'href' : url}).addClass('qv_btn');
+			}
+		});
+	}
+	function replaceEncodedUrl (selector) {
+		jQuery(selector).each(function(){
+			var el = jQuery(this);
+			jQuery.each(this.attributes, function() {
+				if(this.specified) el.attr(this.name, this.value.replace(window.ENCODEDURL, window.parent.ENCODEDURL))
+			});
+		});
+	}
+	jQuery(document).ready(function($) {
+		addQvClass();
+		$(".qv_btn").fancybox({
+			type		: 'iframe',
+			iframe		: {
+					preload: true,
+					scrolling: 'yes' //Can be set to 'auto', 'yes', 'no' or 'visible' 
+				},
+			width		: '800px',
+			height		: '400px',
+			autoHeight	: true,
+			fitToView	: false,
+			aspectRatio	: true,
+			autoSize	: true,
+			closeClick	: false
+		});
+
+		if(window.location != window.parent.location){
+			jQuery('.mosera-quickview-index form').attr('target', '_top');
+			replaceEncodedUrl('a, button, form');
+			jQuery("#sns_product_img_media #zoom_img_media").on("click", function(e) { 
+				e.preventDefault();
+			});
+		}
+		$('.mosera-quickview-index .btn-cart').on('click', function(){
+			
+		});
+		jQuery('.mosera-quickview-index a').on('click', function(e){
+			if(window.location != window.parent.location){
+				if(jQuery(this).hasClass('link-compare')) {
+					e.preventDefault();
+					var url = jQuery(this).attr('href').replace(window.ENCODEDURL, window.parent.ENCODEDURL);
+					window.top.location.href = url;
+					parent.jQuery.fancybox.close();
+				} else {
+					if(jQuery(this).attr('href').match(/^http/)) {
+						e.preventDefault();
+						var url = jQuery(this).attr('href');
+						window.top.location.href = url;
+						parent.jQuery.fancybox.close();
+					}
+				}
+			}
+		});
+	});
+
+	jQuery(document).ajaxComplete(function(){
+		addQvClass();
+	});
+	</script>
+<?php endif; ?>

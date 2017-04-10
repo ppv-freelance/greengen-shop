@@ -1,0 +1,88 @@
+<?php
+	$themeCfg = Mage::helper('mosera/data');
+
+	$enabled = $themeCfg->getField('testimonial_status');
+	if($enabled == 1) :
+		$testimonials = $themeCfg->getField('testimonial_items');
+		$array_testimonials = unserialize($testimonials);
+		$collect_testimonials = array();
+		foreach($array_testimonials as $key=>$testimonial){
+			$testimonial['description'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($testimonial['description']);
+			$collect_testimonials[] = $testimonial;
+		}
+if($collect_testimonials) :
+	$blockId ='sns_testimonial_'.rand().time();
+?>
+
+<div class="block sns_testimonial style_v2" id="<?php echo $blockId; ?>">
+	<div class="block-title">
+		<strong><?php echo $this->__('testimonial') ?></strong>
+        
+	</div>
+	
+	<div class="block_content">
+		<div class="testimonials_slider_in">
+			<div class="our_testimonials" >
+				<?php foreach($collect_testimonials as $testimonial) : ?>
+					<div class="wrap">
+                        <div class="content">
+	                        
+							<div class="info">
+								<p>" <?php echo $testimonial['description']; ?> "</p>
+								
+							</div>
+							<div class="tes-info">
+                                <div class="name">
+                                	<span class="user"><?php echo $testimonial['name']; ?></span>
+                                	<span class="position"><?php echo $testimonial['position']; ?></span>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				<?php endforeach; ?>
+			</div>
+		</div>
+	</div>
+	<div class="navslider">
+			<a class="prev" href="#"><i class="fa fa-long-arrow-left"></i></a>
+			<a class="next" href="#"><i class="fa fa-long-arrow-right"></i></a>
+		</div>
+	<script>
+		jQuery(document).ready(function($) {
+			$(window).load(function(){
+				$('#<?php echo $blockId; ?> .our_testimonials').owlCarousel({
+					responsive : {
+								    0 : { items: 1}									    
+								},
+					loop:true,
+					nav: false,
+					dots: false,
+					slideSpeed : 1,
+					center: true,
+					autoPlay: false,
+					autoplayHoverPause: true,
+					addClassActive: true,
+		            onInitialized: callback
+				});
+				function callback(event) {
+		   			if(this._items.length > this.options.items){
+					        $('#<?php echo $blockId; ?> .navslider').show();
+					    }else{
+					        $('#<?php echo $blockId; ?> .navslider').hide();
+					    }
+				}
+				$('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .our_testimonials').trigger('prev.owl.carousel');
+				});
+				$('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .our_testimonials').trigger('next.owl.carousel');
+				});
+			});
+		});
+	</script>
+</div>
+		
+<?php endif; ?>
+<?php endif; ?>

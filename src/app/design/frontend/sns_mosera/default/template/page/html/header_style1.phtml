@@ -1,0 +1,134 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   design_default
+ * @package    Mage
+ * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+$themeCfg = Mage::helper('mosera/data');
+$store_base_url = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+
+?>
+<div class="sns-header">
+    <div class="sns-sub-header" style="background-color: #90c322; height: 5px;">
+
+    </div>
+    <div id="sns_header" class="wrap header_style1 <?php if($themeCfg->getField('general_styleHeader')== 'solid') echo "solid"; else echo "transparent"; ?>">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 phone-hidell">
+                    <div class="top-contact">
+<!--                        --><?php //echo $this->getLayout()->createBlock('cms/block')->setBlockId('mosera_header_contact')->toHtml(); ?>
+                    </div>
+                    <div class="top-search">
+                        <div class="module-ct">
+                            <?php echo $this->getChildHtml('topSearch') ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="top_logo">
+                        <h1 id="logo">
+                            <a title="<?php echo $this->getLogoAlt() ?>" href="<?php echo $this->getUrl('') ?>">
+                                <?php
+                                if(Mage::getStoreConfig('design/header/logo_src')!=''){ ?>
+                                    <img src="<?php echo $this->getLogoSrc(); ?>" alt="<?php echo $this->getLogoAlt() ?>" />
+                                    <?php
+                                } ?>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="acc-cart">
+                        <div class="header-top">
+                            <div class="top_setting">
+                                    <div class="header-setting module-ct">
+                                        <div class="module-setting">
+                                            <div class="mysetting search">
+                                                <span class="title"><i class="fa fa-search"></i></span>
+                                                <div class="top-search">
+                                                    <div class="module-ct">
+                                                        <?php echo $this->getChildHtml('topSearchv2') ?>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mysetting language-switcher">
+                                                <div class="content">
+                                                    <?php echo $this->getChildHtml('store_language') ?>
+                                                </div>
+                                            </div>
+                                            <div class="mysetting currency-switcher">
+                                                <div class="content">
+                                                    <?php echo $this->getChildHtml('currency_top') ?>
+                                                </div>
+                                            </div>
+                                            <div class="mysetting header-account" style="display: inline-block">
+                                                <div class="myaccount">
+                                                    <div class="customer-ct content" style="float: left">
+                                                        <div class="setting-active">
+                                                            <span class="active-title"><i class="fa fa-user"></i><?php echo $this->__('My account'); ?></span>
+                                                            <?php echo $this->getChildHtml('topLinks') ?>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="top-cart">
+                            <div class="mycart mini-cart">
+                                <?php echo $this->getChildHtml('minicart') ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="container">
+                <div id="sns_menu">
+                    <div class="sns_mainmenu">
+                        <div id="sns_mainnav">
+                            <?php echo $this->getChildHtml('mainmenu'); ?>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<?php if($this->getChildHtml('cat_slideshow')) : ?>
+    <div id="header-slideshow">
+        <?php echo $this->getChildHtml('cat_slideshow') ?>
+    </div>
+<?php endif; ?>
+</div>
+
+
+
+

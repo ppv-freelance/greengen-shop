@@ -1,0 +1,109 @@
+ư<?php
+	$themeCfg = Mage::helper('mosera/data');
+	$enabled = $themeCfg->getField('slideshow_enabled');
+	$timeAuto = $themeCfg->getField('slideshow_autoplay');
+	$animateIn = $themeCfg->getField('slideshow_animatein');
+	$animateOut = $themeCfg->getField('slideshow_animateout');
+	$width = $themeCfg->getField('slideshow_width');
+	$height = $themeCfg->getField('slideshow_height');
+	if(!file_exists(Mage::getBaseDir('media') . '/wysiwyg/'.$width.'x'.$height.'.png')) {
+        $imageBg = imagecreate($width, $height);
+        $white = imagecolorallocate($imageBg, 255, 255, 255);
+		imagecolortransparent($imageBg, $white);
+        imagepng($imageBg, Mage::getBaseDir('media') . '/wysiwyg/'.$width.'x'.$height.'.png');
+        imagedestroy($imageBg);
+    }
+    $bg = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'/wysiwyg/'.$width.'x'.$height.'.png';
+    // echo $bg;die;
+	if($enabled == 1) :
+		$images = $themeCfg->getField('slideshow_images');
+		$array_images = unserialize($images);
+		$id = 1;
+		$collect_images = array();
+		foreach($array_images as $key=>$image){
+			$image['id'] = $id;
+			$image['image'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($image['image']);
+			if (preg_match('/^wysiwyg/i', $image['image'])) {
+				$image['image'] = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).$image['image'];
+			}
+			$image['link'] = Mage::helper('cms')->getBlockTemplateProcessor()->filter($image['link']);
+			$haveHttp =  strpos(trim($image['link']), "http://"); 
+			if(!$haveHttp && ($haveHttp!==0)){
+				//$image['link'] = "http://" . trim($image['link']);  
+			}else {
+				//$image['link'] = trim($image['link']);
+			}
+			$image['title'] = $image['title'];
+			$collect_images[] = $image;
+			$id++;
+		}
+if($collect_images) :
+	$blockId ='sns_slideshow_'.rand().time();
+?>
+<div id="sns_slideshow_wrapper" class="wrap v2">
+		<div class="sns_slideshow" id="<?php echo $blockId; ?>">
+			<!-- <div class="navslider">
+				<a class="prev" href="#"><i class="fa fa-angle-left"></i></a>
+				<a class="next" href="#"><i class="fa fa-angle-right"></i></a>
+			</div> -->
+			<div class="slider_images">
+				<?php foreach($collect_images as $image) : ?>
+					<div class="item" style="text-align: center; background: url(<?php echo $image['image']; ?>) repeat scroll center center / cover  rgba(0, 0, 0, 0)">
+						<a title="<?php echo $image['title']; ?>" href="<?php echo $image['link']; ?>">
+							<img alt="<?php echo $image['title']; ?>" src="<?php echo $bg; ?>" />
+						</a>
+					</div>
+				<?php endforeach; ?>
+			</div>
+			<script>
+				jQuery(document).ready(function($) {
+					var owl = jQuery('#<?php echo $blockId; ?> .slider_images');
+					var owl_options = {
+						items:1,
+					    margin:0,
+					    loop:true,
+					    responsiveClass:true,
+					    responsiveBaseElement: ".sns_slideshow",
+					    nav: true,
+					    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+					    dots: true,
+					    stagePadding:0,
+					    smartSpeed:450,
+					    animateOut: '<?php echo $animateOut ?>',
+					    animateIn: '<?php echo $animateIn ?>',
+					    autoplay: true,
+					    autoplayTimeout: <?php echo $timeAuto ?>,
+					    autoplayHoverPause: true,
+						onInitialized: callback
+					};
+					owl.owlCarousel(owl_options);
+					function callback(event) {
+			   			if(this._items.length > this.options.items){
+						        jQuery('#<?php echo $blockId; ?> .navslider').show();
+						    }else{
+						        jQuery('#<?php echo $blockId; ?> .navslider').hide();
+						    }
+					}
+					jQuery('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+						e.preventDefault();
+						jQuery('#<?php echo $blockId; ?> .slider_images').trigger('prev.owl.carousel');
+					});
+					jQuery('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+						e.preventDefault();
+						jQuery('#<?php echo $blockId; ?> .slider_images').trigger('next.owl.carousel');
+					});
+
+					jQuery('[name="sns_cfg_general_layoutType"]').on('change', function(){
+						// destroy carousel
+						owl.trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
+						owl.find('.owl-stage-outer').children().unwrap();
+						// reinitialize carousel
+						owl.owlCarousel(owl_options);
+					});
+
+				});
+			</script>
+		</div>
+</div>
+<?php endif; ?>
+<?php endif; ?>

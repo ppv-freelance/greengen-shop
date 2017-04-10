@@ -1,0 +1,96 @@
+<?php
+$posts = $this->getPosts();
+
+$blockId ='sns_latestblog_'.rand().time();
+
+if(!count($posts)) :
+?>
+	<p class="note-msg"><?php echo $this->__('There are no posts matching the selection.') ?></p>
+<?php else: ?>
+<div class="block block-latestblog" id="<?php echo $blockId; ?>">
+	<div class="block-title">
+		<strong><?php echo $this->__('FROM THE BLOG');?></strong>
+		<div class="navslider">
+			<a class="prev" href="#"><i class="fa fa-caret-left"></i></a>
+			<a class="next" href="#"><i class="fa fa-caret-right"></i></a>
+		</div>
+	</div>
+	<!-- <div class="note">Claritas est etiam processus dynamicus, qui sequitur mutationem </div> -->
+	<div class="block-content">
+	    <div class="list-blog">
+	    <?php $j=0; foreach ($posts as $post): ?>
+	        <?php
+			
+		        $j++;
+		        if($j>7) break;
+			?>
+	        <div class="item-post<?php echo ($j==3)?' last':'';?> clearfix">
+	            <?php
+					
+		            $str = $post->getPostContent();
+		            $str = preg_replace ( "/\<img[^\>]*>/", '', $post->getPostContent());
+	            ?>
+	            <a class="post-img banner5" title="<?php echo $post->getTitle(); ?>" href="<?php echo $post->getAddress(); ?>" >
+	                <?php $imgUrl = Mage::helper('mosera/data')->getImgUrl($post->getPostContent()); ?>
+	                <img <?php echo $imgUrl; ?> alt="<?php echo $post->getTitle(); ?>" />
+	                <div class="date">
+		                <?php $_ct= new Zend_Date($post->getCreatedTime()); ?>
+		                <span class="d-day"> <?php echo $_ct->toString('d');  ?> </span>
+		                <span class="d-month"> <?php echo $_ct->toString('MMM'); ?> </span>
+		                
+		            </div> 
+	            </a>
+	            <div class="post-user">
+	            	<div class="user"><i class="fa fa-user"></i> Post by <span class="poster"><?php echo $post->getUser(); ?></span></div>
+	            	<span class="root">/</span>
+	            	<div class="comment"><i class="fa fa-comment"></i> <span class="comment_total"><?php if($post->getCommentCount() > 0){ echo $post->getCommentCount(); } else{ echo('0');} ?></span><span> Comment</span></div>
+	            </div>
+	            <div class="postcontent-title clearfix"><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a></div>
+	            <div class="postContent clearfix"><?php echo $post->getPostContent(); ?></div>
+	            <!-- <div class="link-readmore">
+                    <a href="<?php echo $post->getAddress(); ?>" >Read more</a>
+                </div> -->
+	            
+	        </div>
+	    <?php endforeach; ?>
+	    </div>
+	</div>
+	<script>
+		jQuery(document).ready(function($) {
+			$(window).load(function(){
+				$('#<?php echo $blockId; ?> .list-blog').owlCarousel({
+		            responsive : {
+								    0 : { items: 1},
+								    480 : { items: 2 },
+								    768 : { items: 3 },
+								    992 : { items: 4 }										    
+								},
+					loop:true,
+					nav: false,
+					dots: false,
+					slideSpeed : 800,
+					autoPlay: false,
+					autoplayHoverPause: true,
+					addClassActive: true,
+					onInitialized: callback
+				});
+				function callback(event) {
+		   			if(this._items.length > this.options.items){
+					        $('#<?php echo $blockId; ?> .navslider').show();
+					    }else{
+					        $('#<?php echo $blockId; ?> .navslider').hide();
+					    }
+				}
+				$('#<?php echo $blockId; ?> .navslider .prev').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .list-blog').trigger('prev.owl.carousel');
+				});
+				$('#<?php echo $blockId; ?> .navslider .next').on('click', function(e){
+					e.preventDefault();
+					$('#<?php echo $blockId; ?> .list-blog').trigger('next.owl.carousel');
+				});
+			});
+		});
+	</script>
+</div>
+<?php endif; ?>
