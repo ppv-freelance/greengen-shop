@@ -40,10 +40,10 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[127.0.0.1]]></host>
-                    <username><![CDATA[homestead]]></username>
-                    <password><![CDATA[secret]]></password>
-                    <dbname><![CDATA[green-gen]]></dbname>
+                    <host><![CDATA[mcldisu5ppkm29wf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com]]></host>
+                    <username><![CDATA[vexerlht37s5g3en]]></username>
+                    <password><![CDATA[vjmwf3e238aekny8]]></password>
+                    <dbname><![CDATA[fmj7gz6am6xcwsns]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
